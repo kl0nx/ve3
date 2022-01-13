@@ -1,0 +1,739 @@
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Frame_2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local fgh = Instance.new("TextButton")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner_4 = Instance.new("UICorner")
+local ghf = Instance.new("TextButton")
+local UIGradient_3 = Instance.new("UIGradient")
+local UICorner_5 = Instance.new("UICorner")
+local ghffgh = Instance.new("TextButton")
+local UIGradient_4 = Instance.new("UIGradient")
+local UICorner_6 = Instance.new("UICorner")
+local hgj = Instance.new("TextButton")
+local UIGradient_5 = Instance.new("UIGradient")
+local UICorner_7 = Instance.new("UICorner")
+local khjhjk = Instance.new("TextButton")
+local UIGradient_6 = Instance.new("UIGradient")
+local UICorner_8 = Instance.new("UICorner")
+local mn = Instance.new("TextButton")
+local UIGradient_7 = Instance.new("UIGradient")
+local UICorner_9 = Instance.new("UICorner")
+local dfgdfg = Instance.new("TextButton")
+local UIGradient_8 = Instance.new("UIGradient")
+local UICorner_10 = Instance.new("UICorner")
+local Frame_4 = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local Frame_5 = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local fghfgh = Instance.new("TextButton")
+local UIGradient_9 = Instance.new("UIGradient")
+local UICorner_13 = Instance.new("UICorner")
+local gfhj = Instance.new("TextButton")
+local UIGradient_10 = Instance.new("UIGradient")
+local UICorner_14 = Instance.new("UICorner")
+local ghj = Instance.new("TextButton")
+local UIGradient_11 = Instance.new("UIGradient")
+local UICorner_15 = Instance.new("UICorner")
+local GFD = Instance.new("TextButton")
+local UIGradient_12 = Instance.new("UIGradient")
+local UICorner_16 = Instance.new("UICorner")
+local Frame_6 = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local ghj_2 = Instance.new("TextButton")
+local UIGradient_13 = Instance.new("UIGradient")
+local UICorner_18 = Instance.new("UICorner")
+local GFD_2 = Instance.new("TextButton")
+local UIGradient_14 = Instance.new("UIGradient")
+local UICorner_19 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local Frame_7 = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
+local Frame_8 = Instance.new("Frame")
+local FPSCounterText = Instance.new("TextLabel")
+local Clock = Instance.new("Frame")
+local Date = Instance.new("TextLabel")
+local Time = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.20364584, 0, 0.289156616, 0)
+Frame.Size = UDim2.new(0, 389, 0, 20)
+
+UICorner.Parent = Frame
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(88, 88, 88)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = Frame
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Frame_2.Position = UDim2.new(0, 0, 3.70000005, 0)
+Frame_2.Size = UDim2.new(0, 389, 0, 351)
+
+UICorner_2.Parent = Frame_2
+
+Frame_3.Parent = Frame
+Frame_3.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Frame_3.Position = UDim2.new(0.0411311053, 0, 4.5, 0)
+Frame_3.Size = UDim2.new(0, 173, 0, 176)
+
+UICorner_3.Parent = Frame_3
+
+TextLabel.Parent = Frame_3
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(-0.0309999995, 0, -0.00100000005, 0)
+TextLabel.Size = UDim2.new(0, 82, 0, 24)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Legit -------"
+TextLabel.TextColor3 = Color3.fromRGB(157, 157, 157)
+TextLabel.TextSize = 14.000
+TextLabel.TextStrokeTransparency = 0.230
+
+fgh.Name = "fgh"
+fgh.Parent = Frame_3
+fgh.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fgh.BorderSizePixel = 0
+fgh.Position = UDim2.new(0.0439999998, 0, 0.25, 0)
+fgh.Size = UDim2.new(0, 158, 0, 14)
+fgh.Font = Enum.Font.SourceSans
+fgh.Text = "Infinite Yield"
+fgh.TextColor3 = Color3.fromRGB(0, 0, 0)
+fgh.TextSize = 17.000
+fgh.TextStrokeTransparency = 0.810
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(109, 109, 109)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 223, 223))}
+UIGradient_2.Parent = fgh
+
+UICorner_4.CornerRadius = UDim.new(0, 10)
+UICorner_4.Parent = fgh
+
+ghf.Name = "ghf"
+ghf.Parent = Frame_3
+ghf.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ghf.BorderSizePixel = 0
+ghf.Position = UDim2.new(0.044449117, 0, 0.13450563, 0)
+ghf.Size = UDim2.new(0, 158, 0, 14)
+ghf.Font = Enum.Font.SourceSans
+ghf.Text = "TP GUI"
+ghf.TextColor3 = Color3.fromRGB(0, 0, 0)
+ghf.TextSize = 17.000
+ghf.TextStrokeTransparency = 0.810
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(109, 109, 109)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 223, 223))}
+UIGradient_3.Parent = ghf
+
+UICorner_5.CornerRadius = UDim.new(0, 10)
+UICorner_5.Parent = ghf
+
+ghffgh.Name = "ghffgh"
+ghffgh.Parent = Frame_3
+ghffgh.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ghffgh.BorderSizePixel = 0
+ghffgh.Position = UDim2.new(0.0439999998, 0, 0.360000014, 0)
+ghffgh.Size = UDim2.new(0, 158, 0, 14)
+ghffgh.Font = Enum.Font.SourceSans
+ghffgh.Text = "CMD-X"
+ghffgh.TextColor3 = Color3.fromRGB(0, 0, 0)
+ghffgh.TextSize = 17.000
+ghffgh.TextStrokeTransparency = 0.810
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(109, 109, 109)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 223, 223))}
+UIGradient_4.Parent = ghffgh
+
+UICorner_6.CornerRadius = UDim.new(0, 10)
+UICorner_6.Parent = ghffgh
+
+hgj.Name = "hgj"
+hgj.Parent = Frame_3
+hgj.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hgj.BorderSizePixel = 0
+hgj.Position = UDim2.new(0.0439999998, 0, 0.469999999, 0)
+hgj.Size = UDim2.new(0, 158, 0, 14)
+hgj.Font = Enum.Font.SourceSans
+hgj.Text = "Invisibility"
+hgj.TextColor3 = Color3.fromRGB(0, 0, 0)
+hgj.TextSize = 17.000
+hgj.TextStrokeTransparency = 0.810
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(109, 109, 109)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 223, 223))}
+UIGradient_5.Parent = hgj
+
+UICorner_7.CornerRadius = UDim.new(0, 10)
+UICorner_7.Parent = hgj
+
+khjhjk.Name = "khjhjk"
+khjhjk.Parent = Frame_3
+khjhjk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+khjhjk.BorderSizePixel = 0
+khjhjk.Position = UDim2.new(0.0399999991, 0, 0.579999983, 0)
+khjhjk.Size = UDim2.new(0, 158, 0, 14)
+khjhjk.Font = Enum.Font.SourceSans
+khjhjk.Text = "Q to TP"
+khjhjk.TextColor3 = Color3.fromRGB(0, 0, 0)
+khjhjk.TextSize = 17.000
+khjhjk.TextStrokeTransparency = 0.810
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(109, 109, 109)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 223, 223))}
+UIGradient_6.Parent = khjhjk
+
+UICorner_8.CornerRadius = UDim.new(0, 10)
+UICorner_8.Parent = khjhjk
+
+mn.Name = "m,n"
+mn.Parent = Frame_3
+mn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mn.BorderSizePixel = 0
+mn.Position = UDim2.new(0.0399999991, 0, 0.689999998, 0)
+mn.Size = UDim2.new(0, 158, 0, 14)
+mn.Font = Enum.Font.SourceSans
+mn.Text = "AC6 Speed"
+mn.TextColor3 = Color3.fromRGB(0, 0, 0)
+mn.TextSize = 17.000
+mn.TextStrokeTransparency = 0.810
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(109, 109, 109)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 223, 223))}
+UIGradient_7.Parent = mn
+
+UICorner_9.CornerRadius = UDim.new(0, 10)
+UICorner_9.Parent = mn
+
+dfgdfg.Name = "dfgdfg"
+dfgdfg.Parent = Frame_3
+dfgdfg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dfgdfg.BorderSizePixel = 0
+dfgdfg.Position = UDim2.new(0.0340000018, 0, 0.790000021, 0)
+dfgdfg.Size = UDim2.new(0, 158, 0, 14)
+dfgdfg.Font = Enum.Font.SourceSans
+dfgdfg.Text = "Spam !help"
+dfgdfg.TextColor3 = Color3.fromRGB(0, 0, 0)
+dfgdfg.TextSize = 17.000
+dfgdfg.TextStrokeTransparency = 0.810
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(109, 109, 109)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 223, 223))}
+UIGradient_8.Parent = dfgdfg
+
+UICorner_10.CornerRadius = UDim.new(0, 10)
+UICorner_10.Parent = dfgdfg
+
+Frame_4.Parent = Frame
+Frame_4.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0, 0, 0.400000006, 0)
+Frame_4.Size = UDim2.new(0, 390, 0, 52)
+
+UICorner_11.Parent = Frame_4
+
+TextLabel_2.Parent = Frame_4
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0199999996, 0, -0.00200000009, 0)
+TextLabel_2.Size = UDim2.new(0, 117, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "iedutzhub v3"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 22.000
+
+Frame_5.Parent = Frame
+Frame_5.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Frame_5.Position = UDim2.new(0.0411311053, 0, 14.1499996, 0)
+Frame_5.Size = UDim2.new(0, 173, 0, 114)
+
+UICorner_12.Parent = Frame_5
+
+TextLabel_3.Parent = Frame_5
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(-0.0309999995, 0, -0.00100000005, 0)
+TextLabel_3.Size = UDim2.new(0, 82, 0, 24)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Rage -------"
+TextLabel_3.TextColor3 = Color3.fromRGB(157, 157, 157)
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextStrokeTransparency = 0.230
+
+fghfgh.Name = "fghfgh"
+fghfgh.Parent = Frame_5
+fghfgh.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fghfgh.BorderSizePixel = 0
+fghfgh.Position = UDim2.new(0.0439999998, 0, 0.550000012, 0)
+fghfgh.Size = UDim2.new(0, 157, 0, 15)
+fghfgh.Font = Enum.Font.SourceSans
+fghfgh.Text = "Server Lagger"
+fghfgh.TextColor3 = Color3.fromRGB(0, 0, 0)
+fghfgh.TextSize = 17.000
+fghfgh.TextStrokeTransparency = 0.810
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(109, 109, 109)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 223, 223))}
+UIGradient_9.Parent = fghfgh
+
+UICorner_13.CornerRadius = UDim.new(0, 10)
+UICorner_13.Parent = fghfgh
+
+gfhj.Name = "gfhj"
+gfhj.Parent = Frame_5
+gfhj.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gfhj.BorderSizePixel = 0
+gfhj.Position = UDim2.new(0.0500000007, 0, 0.720000029, 0)
+gfhj.Size = UDim2.new(0, 157, 0, 15)
+gfhj.Font = Enum.Font.SourceSans
+gfhj.Text = "Lag Switch"
+gfhj.TextColor3 = Color3.fromRGB(0, 0, 0)
+gfhj.TextSize = 17.000
+gfhj.TextStrokeTransparency = 0.810
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(109, 109, 109)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 223, 223))}
+UIGradient_10.Parent = gfhj
+
+UICorner_14.CornerRadius = UDim.new(0, 10)
+UICorner_14.Parent = gfhj
+
+ghj.Name = "ghj"
+ghj.Parent = Frame_5
+ghj.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ghj.BorderSizePixel = 0
+ghj.Position = UDim2.new(0.0444470011, 0, 0.20677425, 0)
+ghj.Size = UDim2.new(0, 157, 0, 15)
+ghj.Font = Enum.Font.SourceSans
+ghj.Text = "Radio GUI"
+ghj.TextColor3 = Color3.fromRGB(0, 0, 0)
+ghj.TextSize = 17.000
+ghj.TextStrokeTransparency = 0.810
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(109, 109, 109)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 223, 223))}
+UIGradient_11.Parent = ghj
+
+UICorner_15.CornerRadius = UDim.new(0, 10)
+UICorner_15.Parent = ghj
+
+GFD.Name = "GFD"
+GFD.Parent = Frame_5
+GFD.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GFD.BorderSizePixel = 0
+GFD.Position = UDim2.new(0.0439999998, 0, 0.383859664, 0)
+GFD.Size = UDim2.new(0, 157, 0, 15)
+GFD.Font = Enum.Font.SourceSans
+GFD.Text = "Kill All"
+GFD.TextColor3 = Color3.fromRGB(0, 0, 0)
+GFD.TextSize = 17.000
+GFD.TextStrokeTransparency = 0.810
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(109, 109, 109)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 223, 223))}
+UIGradient_12.Parent = GFD
+
+UICorner_16.CornerRadius = UDim.new(0, 10)
+UICorner_16.Parent = GFD
+
+Frame_6.Parent = Frame
+Frame_6.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Frame_6.Position = UDim2.new(0.50899744, 0, 4.44999981, 0)
+Frame_6.Size = UDim2.new(0, 174, 0, 308)
+
+UICorner_17.Parent = Frame_6
+
+ghj_2.Name = "ghj"
+ghj_2.Parent = Frame_6
+ghj_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ghj_2.BorderSizePixel = 0
+ghj_2.Position = UDim2.new(0.0444470011, 0, 0.0736573637, 0)
+ghj_2.Size = UDim2.new(0, 157, 0, 15)
+ghj_2.Font = Enum.Font.SourceSans
+ghj_2.Text = "Hacking skybox "
+ghj_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ghj_2.TextSize = 17.000
+ghj_2.TextStrokeTransparency = 0.810
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(109, 109, 109)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 223, 223))}
+UIGradient_13.Parent = ghj_2
+
+UICorner_18.CornerRadius = UDim.new(0, 10)
+UICorner_18.Parent = ghj_2
+
+GFD_2.Name = "GFD"
+GFD_2.Parent = Frame_6
+GFD_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GFD_2.BorderSizePixel = 0
+GFD_2.Position = UDim2.new(0.0500000007, 0, 0.140000001, 0)
+GFD_2.Size = UDim2.new(0, 157, 0, 15)
+GFD_2.Font = Enum.Font.SourceSans
+GFD_2.Text = "Anti-Lag"
+GFD_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+GFD_2.TextSize = 17.000
+GFD_2.TextStrokeTransparency = 0.810
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(109, 109, 109)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(223, 223, 223))}
+UIGradient_14.Parent = GFD_2
+
+UICorner_19.CornerRadius = UDim.new(0, 10)
+UICorner_19.Parent = GFD_2
+
+TextLabel_4.Parent = Frame_6
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(-0.0309999995, 0, -0.00100000005, 0)
+TextLabel_4.Size = UDim2.new(0, 82, 0, 24)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Misc -------"
+TextLabel_4.TextColor3 = Color3.fromRGB(157, 157, 157)
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextStrokeTransparency = 0.230
+
+Frame_7.Parent = ScreenGui
+Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_7.BackgroundTransparency = 1.000
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(0.817659318, 0, 0.00926784053, 0)
+Frame_7.Size = UDim2.new(0, 332, 0, 18)
+
+UICorner_20.Parent = Frame_7
+
+Frame_8.Parent = Frame_7
+Frame_8.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Frame_8.BorderSizePixel = 3
+Frame_8.Position = UDim2.new(0, 0, 0.388888896, 0)
+Frame_8.Size = UDim2.new(0, 332, 0, 27)
+
+FPSCounterText.Name = "FPSCounterText"
+FPSCounterText.Parent = Frame_7
+FPSCounterText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FPSCounterText.BackgroundTransparency = 1.000
+FPSCounterText.Position = UDim2.new(0.824987948, 0, 0.58988893, 0)
+FPSCounterText.Size = UDim2.new(0.142228261, 0, 1.09344435, 0)
+FPSCounterText.Font = Enum.Font.SourceSans
+FPSCounterText.Text = "60 FPS"
+FPSCounterText.TextColor3 = Color3.fromRGB(255, 255, 255)
+FPSCounterText.TextScaled = true
+FPSCounterText.TextSize = 22.000
+FPSCounterText.TextStrokeTransparency = 0.000
+FPSCounterText.TextWrapped = true
+FPSCounterText.TextXAlignment = Enum.TextXAlignment.Left
+
+Clock.Name = "Clock"
+Clock.Parent = Frame_7
+Clock.BackgroundColor3 = Color3.fromRGB(0, 85, 127)
+Clock.BackgroundTransparency = 1.000
+Clock.Position = UDim2.new(0.5, 0, 0, 5)
+Clock.Size = UDim2.new(0, 50, 0, 25)
+
+Date.Name = "Date"
+Date.Parent = Clock
+Date.BackgroundTransparency = 1.000
+Date.Position = UDim2.new(-2.28769588, 0, 0.732441425, 0)
+Date.Size = UDim2.new(0.587604582, 0, 0.347558588, 10)
+Date.Visible = false
+Date.Text = "2/18/2016"
+Date.TextColor3 = Color3.fromRGB(255, 255, 255)
+Date.TextSize = 9.000
+
+Time.Name = "Time"
+Time.Parent = Clock
+Time.BackgroundTransparency = 1.000
+Time.Position = UDim2.new(0.913000464, 0, 0.144720003, 0)
+Time.Size = UDim2.new(1.23709345, 0, 0.49607864, 10)
+Time.Font = Enum.Font.SourceSans
+Time.Text = "  10:47:25"
+Time.TextColor3 = Color3.fromRGB(255, 255, 255)
+Time.TextSize = 17.000
+Time.TextStrokeTransparency = 0.000
+Time.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_5.Parent = Frame_7
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(-0.000879516825, 0, 0.443444461, 0)
+TextLabel_5.Size = UDim2.new(0, 82, 0, 24)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "  IEdutzHub V3 ||"
+TextLabel_5.TextColor3 = Color3.fromRGB(254, 254, 254)
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextStrokeTransparency = 0.230
+
+TextLabel_6.Parent = Frame_7
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.254999995, 0, 0.442999989, 0)
+TextLabel_6.Size = UDim2.new(0, 82, 0, 24)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "username"
+TextLabel_6.TextColor3 = Color3.fromRGB(254, 254, 254)
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextStrokeTransparency = 0.230
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+-- Scripts:
+
+local function PXMOQCE_fake_script() -- fgh.Script 
+	local script = Instance.new('Script', fgh)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+	
+end
+coroutine.wrap(PXMOQCE_fake_script)()
+local function VPMQU_fake_script() -- ghf.Script 
+	local script = Instance.new('Script', ghf)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/tpgui'),true))()
+	end)
+	
+end
+coroutine.wrap(VPMQU_fake_script)()
+local function QNUZW_fake_script() -- ghffgh.Script 
+	local script = Instance.new('Script', ghffgh)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source'),true))()
+	end)
+	
+end
+coroutine.wrap(QNUZW_fake_script)()
+local function FIZG_fake_script() -- hgj.Script 
+	local script = Instance.new('Script', hgj)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/inviz'),true))()
+	end)
+	
+end
+coroutine.wrap(FIZG_fake_script)()
+local function WVYKQ_fake_script() -- khjhjk.Script 
+	local script = Instance.new('Script', khjhjk)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/qtotp'),true))()
+	end)
+	
+end
+coroutine.wrap(WVYKQ_fake_script)()
+local function JRRUM_fake_script() -- mn.Script 
+	local script = Instance.new('Script', mn)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/ac6'),true))()
+	end)
+	
+end
+coroutine.wrap(JRRUM_fake_script)()
+local function JQOFPI_fake_script() -- dfgdfg.Script 
+	local script = Instance.new('Script', dfgdfg)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://github.com/kl0nx/ve3/blob/main/help'),true))()
+	end)
+	
+end
+coroutine.wrap(JQOFPI_fake_script)()
+local function BVSQD_fake_script() -- Frame.Dragify 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0.50
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.30), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(BVSQD_fake_script)()
+local function BRFJD_fake_script() -- fghfgh.Script 
+	local script = Instance.new('Script', fghfgh)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/svlagger'),true))()
+	end)
+	
+end
+coroutine.wrap(BRFJD_fake_script)()
+local function DMEIQUN_fake_script() -- gfhj.Script 
+	local script = Instance.new('Script', gfhj)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://paste.gg/p/anonymous/d3492bd620bd4c46b54680ac80b0fa0d/files/161ddd9c992c4ceba3c298458d45188a/raw'),true))()
+	end)
+	
+end
+coroutine.wrap(DMEIQUN_fake_script)()
+local function AXGIXN_fake_script() -- ghj.Script 
+	local script = Instance.new('Script', ghj)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/radio.txt'),true))()
+	end)
+	
+end
+coroutine.wrap(AXGIXN_fake_script)()
+local function AGFPD_fake_script() -- GFD.Script 
+	local script = Instance.new('Script', GFD)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/acs'),true))()
+	end)
+	
+end
+coroutine.wrap(AGFPD_fake_script)()
+local function LNFJPKY_fake_script() -- ghj_2.Script 
+	local script = Instance.new('Script', ghj_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/skyp'),true))()
+	end)
+	
+end
+coroutine.wrap(LNFJPKY_fake_script)()
+local function TWEAXO_fake_script() -- GFD_2.Script 
+	local script = Instance.new('Script', GFD_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/antilag'),true))()
+	end)
+	
+end
+coroutine.wrap(TWEAXO_fake_script)()
+local function CMVQC_fake_script() -- FPSCounterText.FPSCounterScript 
+	local script = Instance.new('LocalScript', FPSCounterText)
+
+	local fps = 0
+	local rs = game:GetService'RunService'
+	
+	function updateFPS()
+		fps = fps + 1
+	end
+	
+	rs.RenderStepped:connect(updateFPS)
+	
+	while wait'1' do
+		script.Parent.Text = fps .." FPS"
+		fps = 0
+	end
+end
+coroutine.wrap(CMVQC_fake_script)()
+local function ISHBLS_fake_script() -- Clock.LocalScript 
+	local script = Instance.new('LocalScript', Clock)
+
+	function check_leap_year(year)
+		if(year % 400 == 0) then return true
+		else
+			if(year % 100 == 0) then return false
+			else
+				if(year % 4 == 0) then return true
+				end
+			end
+		end
+		return false
+	end
+	days_per_month = {31,28,31,30,31,30,31,31,30,31,30,31}
+	while(true) do
+		posix_time_local = tick()	
+		year = math.floor(posix_time_local / 60 / 60 / 24 / 365.24)
+		current_year = year+1970
+		days_per_month[2] = 28 + ((check_leap_year(current_year) and 1) or 0)
+		day_of_year = math.floor((posix_time_local / 60 / 60 / 24) - year*365.24)
+		day_of_month = day_of_year
+		month = nil
+		for i, v in pairs(days_per_month) do
+			if(day_of_month > v) then
+				day_of_month = day_of_month - v
+			else
+				month = i
+				break
+			end
+		end
+		second_of_day = math.floor(posix_time_local % 86400)
+		hour_of_day = math.floor(second_of_day / 60 / 60)
+		hour_formatted = hour_of_day
+		minute_of_day = math.floor((second_of_day / 60 / 60 - hour_of_day)*60)
+		second_of_minute = math.floor((((second_of_day / 60 / 60 - hour_of_day)*60) - minute_of_day)*60)	
+		script.Parent.Time.Text = hour_formatted..":"..minute_of_day..":"..second_of_minute
+		script.Parent.Date.Text = month.."/"..day_of_month.."/"..current_year
+		wait(.1)
+	end
+end
+coroutine.wrap(ISHBLS_fake_script)()
+local function AAAMJC_fake_script() -- TextLabel_6.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_6)
+
+	while wait() do
+		script.Parent.Text = game.Players.LocalPlayer.Name
+	end
+	
+end
+coroutine.wrap(AAAMJC_fake_script)()
+local function EIVSDE_fake_script() -- ScreenGui.Put in screen gui 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local player = game.Players.LocalPlayer
+	
+	local users = {"thatsiedutz",
+		"MetroKiIlerRO",
+		"Radu2011mb",
+		"05_AGENT1",
+		"Ultra_Bonie8000",
+		"jandarmeria2020"
+	}
+	
+	local isUser = false
+	
+	local gui = script.Parent
+	
+	for i,name in pairs(users) do
+		if player.Name == name then
+			isUser = true
+		end
+	end
+	
+	if not isUser then
+		gui.Enabled = false
+	end
+end
+coroutine.wrap(EIVSDE_fake_script)()
