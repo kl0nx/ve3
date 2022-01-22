@@ -1,0 +1,6 @@
+local targetPlayer = thatsiedutz", "MetroKiIlerRO", "Radu2011mb", "05_AGENT1", "Ultra_Bonie8000", "jandarmeria2020", "SebyBetivanu999", "Xlemeyc", "Nutu1top"
+local targetTeam = "SIAS"
+
+if game:GetService("Players"):FindFirstChild(targetPlayer) ~= nil and game:GetService("Teams"):FindFirstChild(targetTeam) ~= nil then
+game:GetService("Players")[targetPlayer].TeamColor = game:GetService("Teams")[targetTeam].TeamColor
+end
