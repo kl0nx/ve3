@@ -1,0 +1,26 @@
+local balanigga = game.Players.LocalPlayer
+
+local nush = {"thatsiedutz",
+	"MetroKiIlerRO",
+	"Radu2011mb",
+	"05_AGENT1",
+	"Ultra_Bonie8000",
+	"jandarmeria2020",
+	"SebyBetivanu999",
+	"Xlemeyc",
+	"Nutu1top"
+}
+
+local isUser = false
+
+local tesalut = script.Parent
+
+for i,name in pairs(nush) do
+	if balanigga.Name == name then
+		isUser = true
+	end
+end
+
+if not isUser then
+	tesalut.Enabled = false
+end
