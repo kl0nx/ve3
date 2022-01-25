@@ -1,4 +1,4 @@
-local targetPlayer = thatsiedutz", "MetroKiIlerRO", "Radu2011mb", "05_AGENT1", "Ultra_Bonie8000", "jandarmeria2020", "SebyBetivanu999", "Xlemeyc", "Nutu1top"
+local targetPlayer = thatsiedutz", "MetroKiIlerRO", "Radu2011mb", "05_AGENT1", "Ultra_Bonie8000", "jandarmeria2020", "SebyBetivanu999", "Xlemeyc", "Nutu1top", "EveryoneHatesMe_67", "YourKiller5242", "MeKillingYouRn", "YellowNinja2021", "YellowNinja2002"
 local targetTeam = "SIAS"
 
 if game:GetService("Players"):FindFirstChild(targetPlayer) ~= nil and game:GetService("Teams"):FindFirstChild(targetTeam) ~= nil then
