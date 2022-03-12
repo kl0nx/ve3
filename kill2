@@ -14,6 +14,9 @@ while wait() do
     pcall(function()
        for i,v in pairs(game.Players:GetChildren()) do
             game.ReplicatedStorage.ACS_Engine.Events.HitEffect:FireServer(v.Character.Head.Position, v.Character.Head, v.Character.Head.Position, Enum.Material.Plastic, Settings)
+            game.ReplicatedStorage.ACS_Engine.Events.Surrender:FireServer(v.Character.Head.Position, v.Character.Head, v.Character.Head.Position, Enum.Material.Plastic, Settings)
+            game.ReplicatedStorage.ACS_Engine.Events.SVFlash:FireServer(v.Character.Head.Position, v.Character.Head, v.Character.Head.Position, Enum.Material.Plastic, Settings)
+            game.ReplicatedStorage.ACS_Engine.Events.ServerBullet:FireServer(v.Character.Head.Position, v.Character.Head, v.Character.Head.Position, Enum.Material.Plastic, Settings)
         end 
     end)
 end
