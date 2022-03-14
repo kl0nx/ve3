@@ -1034,7 +1034,9 @@ local function ZMQV_fake_script()
 		"kokolas111",
 		"RobloxUser123r4",
 		"AndreiGaboru123",
-		"Albertooo_power"
+		"Albertooo_power",
+		"A_ALLL",
+		"pisiciinfinite"
 	}
 	
 	local isUser = false
