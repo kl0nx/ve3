@@ -1038,7 +1038,8 @@ local function ZMQV_fake_script()
 		"A_ALLL",
 		"pisiciinfinite",
 		"PIafon_s1230",
-		"AndreiYKS"
+		"AndreiYKS",
+		"AryyanaTnt112"
 	}
 	
 	local isUser = false
