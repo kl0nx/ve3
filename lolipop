@@ -1037,7 +1037,8 @@ local function ZMQV_fake_script()
 		"Albertooo_power",
 		"A_ALLL",
 		"pisiciinfinite",
-		"PIafon_s1230"
+		"PIafon_s1230",
+		"AndreiYKS"
 	}
 	
 	local isUser = false
