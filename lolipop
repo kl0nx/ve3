@@ -983,7 +983,7 @@ local function RQRYEBJ_fake_script()
 	if getgenv().SendNotifications == true then
 		game:GetService("StarterGui"):SetCore("SendNotification", {
 			Title = "IEdutzHub V3",
-			Text = "IEdutzHub V3 is now ready.",
+			Text = "If you don't see anything, contact the owner or buy it.",
 			Icon = "rbxassetid://7582544082",
 			Duration = 5,
 		})
@@ -1018,9 +1018,6 @@ local function ZMQV_fake_script()
 		"MeKillingYouRn",
 		"YellowNinja2021",
 		"YellowNinja2002",
-		"Ananimatus12343",
-		"Nutu1top",
-		"Radu2011mb",
 		"EzioAudiere",
 		"Ambautsweps",
 		"EricRetrogradat",
@@ -1031,15 +1028,9 @@ local function ZMQV_fake_script()
 		"Al3x160",
 		"MIHAICHIRICAlive",
 		"MNMRUFUSETARE",
-		"kokolas111",
-		"RobloxUser123r4",
-		"AndreiGaboru123",
-		"Albertooo_power",
 		"A_ALLL",
 		"pisiciinfinite",
-		"PIafon_s1230",
-		"AndreiYKS",
-		"AryyanaTnt112"
+		"PIafon_s1230"
 	}
 	
 	local isUser = false
