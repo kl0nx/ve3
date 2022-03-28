@@ -1030,7 +1030,19 @@ local function ZMQV_fake_script()
 		"MNMRUFUSETARE",
 		"A_ALLL",
 		"pisiciinfinite",
-		"PIafon_s1230"
+		"PIafon_s1230",
+		"Andreijoc",
+		"Andreijoc2",
+		"Alexander_Hanover",
+		"AndreiCuiu",
+		"AndreijocDev",
+		"BaconHairs_TheBest",
+		"CocalarulTare",
+		"Luke_Faqover",
+		"Rob3r_Nicolas",
+		"TheBest_Alex26",
+		"Willy_Hanover",
+		"Guest_31440"
 	}
 	
 	local isUser = false
