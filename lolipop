@@ -1042,7 +1042,9 @@ local function ZMQV_fake_script()
 		"Rob3r_Nicolas",
 		"TheBest_Alex26",
 		"Willy_Hanover",
-		"Guest_31440"
+		"Guest_31440",
+                "AndreiYKS",
+                "EricWebb2"
 	}
 	
 	local isUser = false
