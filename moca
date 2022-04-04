@@ -1,0 +1,761 @@
+local _1 = Instance.new("ScreenGui")
+local d = Instance.new("Frame")
+local a = Instance.new("UICorner")
+local a_2 = Instance.new("Frame")
+local b = Instance.new("UICorner")
+local b_2 = Instance.new("UIGradient")
+local a_3 = Instance.new("Frame")
+local h = Instance.new("UICorner")
+local h_2 = Instance.new("TextLabel")
+local h_3 = Instance.new("TextButton")
+local I = Instance.new("UICorner")
+local h_4 = Instance.new("TextButton")
+local I_2 = Instance.new("UICorner")
+local h_5 = Instance.new("TextButton")
+local I_3 = Instance.new("UICorner")
+local h_6 = Instance.new("TextButton")
+local I_4 = Instance.new("UICorner")
+local h_7 = Instance.new("TextButton")
+local I_5 = Instance.new("UICorner")
+local h_8 = Instance.new("TextButton")
+local I_6 = Instance.new("UICorner")
+local h_9 = Instance.new("TextButton")
+local I_7 = Instance.new("UICorner")
+local a_4 = Instance.new("Frame")
+local _3 = Instance.new("UICorner")
+local _3_2 = Instance.new("TextLabel")
+local _3_3 = Instance.new("UIGradient")
+local a_5 = Instance.new("Frame")
+local j = Instance.new("UICorner")
+local j_2 = Instance.new("TextLabel")
+local j_3 = Instance.new("TextButton")
+local m = Instance.new("UICorner")
+local j_4 = Instance.new("TextButton")
+local p = Instance.new("UICorner")
+local j_5 = Instance.new("TextButton")
+local l = Instance.new("UICorner")
+local j_6 = Instance.new("TextButton")
+local k = Instance.new("UICorner")
+local a_6 = Instance.new("Frame")
+local i = Instance.new("UICorner")
+local a_7 = Instance.new("UIGradient")
+local h_10 = Instance.new("ImageLabel")
+local h_11 = Instance.new("TextLabel")
+
+_1.Name = "1"
+_1.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+_1.DisplayOrder = 69
+_1.ResetOnSpawn = false
+
+d.Name = "d"
+d.Parent = _1
+d.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+d.Position = UDim2.new(0.20364584, 0, 0.289156616, 0)
+d.Size = UDim2.new(0, 389, 0, 20)
+
+a.Name = "a"
+a.Parent = d
+
+a_2.Name = "a"
+a_2.Parent = d
+a_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+a_2.Position = UDim2.new(0, 0, 3.70000005, 0)
+a_2.Size = UDim2.new(0, 389, 0, 351)
+
+b.Name = "b"
+b.Parent = a_2
+
+b_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.39, Color3.fromRGB(65, 65, 65)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(221, 221, 221))}
+b_2.Name = "b"
+b_2.Parent = a_2
+
+a_3.Name = "a"
+a_3.Parent = d
+a_3.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+a_3.Position = UDim2.new(0.0411311053, 0, 4.5, 0)
+a_3.Size = UDim2.new(0, 173, 0, 176)
+
+h.Name = "h"
+h.Parent = a_3
+
+h_2.Name = "h"
+h_2.Parent = a_3
+h_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+h_2.BackgroundTransparency = 1.000
+h_2.BorderSizePixel = 0
+h_2.Position = UDim2.new(-0.0309999995, 0, -0.00100000005, 0)
+h_2.Size = UDim2.new(0, 82, 0, 24)
+h_2.Font = Enum.Font.SourceSans
+h_2.Text = "Legit -------"
+h_2.TextColor3 = Color3.fromRGB(157, 157, 157)
+h_2.TextSize = 14.000
+h_2.TextStrokeTransparency = 0.230
+
+h_3.Name = "h"
+h_3.Parent = a_3
+h_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+h_3.BorderSizePixel = 0
+h_3.Position = UDim2.new(0.0439999998, 0, 0.25, 0)
+h_3.Size = UDim2.new(0, 158, 0, 14)
+h_3.Font = Enum.Font.SourceSans
+h_3.Text = "Infinite Yield"
+h_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+h_3.TextSize = 17.000
+h_3.TextStrokeTransparency = 0.810
+
+I.CornerRadius = UDim.new(0, 10)
+I.Name = "I"
+I.Parent = h_3
+
+h_4.Name = "h"
+h_4.Parent = a_3
+h_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+h_4.BorderSizePixel = 0
+h_4.Position = UDim2.new(0.044449117, 0, 0.13450563, 0)
+h_4.Size = UDim2.new(0, 158, 0, 14)
+h_4.Font = Enum.Font.SourceSans
+h_4.Text = "TP GUI"
+h_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+h_4.TextSize = 17.000
+h_4.TextStrokeTransparency = 0.810
+
+I_2.CornerRadius = UDim.new(0, 10)
+I_2.Name = "I"
+I_2.Parent = h_4
+
+h_5.Name = "h"
+h_5.Parent = a_3
+h_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+h_5.BorderSizePixel = 0
+h_5.Position = UDim2.new(0.0439999998, 0, 0.360000014, 0)
+h_5.Size = UDim2.new(0, 158, 0, 14)
+h_5.Font = Enum.Font.SourceSans
+h_5.Text = "CMD-X"
+h_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+h_5.TextSize = 17.000
+h_5.TextStrokeTransparency = 0.810
+
+I_3.CornerRadius = UDim.new(0, 10)
+I_3.Name = "I"
+I_3.Parent = h_5
+
+h_6.Name = "h"
+h_6.Parent = a_3
+h_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+h_6.BorderSizePixel = 0
+h_6.Position = UDim2.new(0.0439999998, 0, 0.469999999, 0)
+h_6.Size = UDim2.new(0, 158, 0, 14)
+h_6.Font = Enum.Font.SourceSans
+h_6.Text = "Invisibility"
+h_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+h_6.TextSize = 17.000
+h_6.TextStrokeTransparency = 0.810
+
+I_4.CornerRadius = UDim.new(0, 10)
+I_4.Name = "I"
+I_4.Parent = h_6
+
+h_7.Name = "h"
+h_7.Parent = a_3
+h_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+h_7.BorderSizePixel = 0
+h_7.Position = UDim2.new(0.0399999991, 0, 0.579999983, 0)
+h_7.Size = UDim2.new(0, 158, 0, 14)
+h_7.Font = Enum.Font.SourceSans
+h_7.Text = "Q to TP"
+h_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+h_7.TextSize = 17.000
+h_7.TextStrokeTransparency = 0.810
+
+I_5.CornerRadius = UDim.new(0, 10)
+I_5.Name = "I"
+I_5.Parent = h_7
+
+h_8.Name = "h"
+h_8.Parent = a_3
+h_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+h_8.BorderSizePixel = 0
+h_8.Position = UDim2.new(0.0399999991, 0, 0.689999998, 0)
+h_8.Size = UDim2.new(0, 158, 0, 14)
+h_8.Font = Enum.Font.SourceSans
+h_8.Text = "AC6 Speed"
+h_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+h_8.TextSize = 17.000
+h_8.TextStrokeTransparency = 0.810
+
+I_6.CornerRadius = UDim.new(0, 10)
+I_6.Name = "I"
+I_6.Parent = h_8
+
+h_9.Name = "h"
+h_9.Parent = a_3
+h_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+h_9.BorderSizePixel = 0
+h_9.Position = UDim2.new(0.0340000018, 0, 0.790000021, 0)
+h_9.Size = UDim2.new(0, 158, 0, 14)
+h_9.Font = Enum.Font.SourceSans
+h_9.Text = "Unnamed ESP"
+h_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+h_9.TextSize = 17.000
+h_9.TextStrokeTransparency = 0.810
+
+I_7.CornerRadius = UDim.new(0, 10)
+I_7.Name = "I"
+I_7.Parent = h_9
+
+a_4.Name = "a"
+a_4.Parent = d
+a_4.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+a_4.BorderSizePixel = 0
+a_4.Position = UDim2.new(0, 0, 0.400000006, 0)
+a_4.Size = UDim2.new(0, 390, 0, 52)
+
+_3.Name = "3"
+_3.Parent = a_4
+
+_3_2.Name = "3"
+_3_2.Parent = a_4
+_3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3_2.BackgroundTransparency = 1.000
+_3_2.Position = UDim2.new(0.055897437, 0, -0.00200000009, 0)
+_3_2.Size = UDim2.new(0, 117, 0, 50)
+_3_2.Font = Enum.Font.SourceSansBold
+_3_2.Text = "iedutzhub v3 lite"
+_3_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+_3_2.TextSize = 22.000
+
+_3_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.35, Color3.fromRGB(117, 117, 117)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(221, 221, 221))}
+_3_3.Name = "3"
+_3_3.Parent = a_4
+
+a_5.Name = "a"
+a_5.Parent = d
+a_5.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+a_5.Position = UDim2.new(0.0411311053, 0, 14.1499996, 0)
+a_5.Size = UDim2.new(0, 173, 0, 114)
+
+j.Name = "j"
+j.Parent = a_5
+
+j_2.Name = "j"
+j_2.Parent = a_5
+j_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+j_2.BackgroundTransparency = 1.000
+j_2.BorderSizePixel = 0
+j_2.Position = UDim2.new(-0.0309999995, 0, -0.00100000005, 0)
+j_2.Size = UDim2.new(0, 82, 0, 24)
+j_2.Font = Enum.Font.SourceSans
+j_2.Text = "Rage -------"
+j_2.TextColor3 = Color3.fromRGB(157, 157, 157)
+j_2.TextSize = 14.000
+j_2.TextStrokeTransparency = 0.230
+
+j_3.Name = "j"
+j_3.Parent = a_5
+j_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+j_3.BorderSizePixel = 0
+j_3.Position = UDim2.new(0.0439999998, 0, 0.550000012, 0)
+j_3.Size = UDim2.new(0, 157, 0, 15)
+j_3.Font = Enum.Font.SourceSans
+j_3.Text = "Server Lagger"
+j_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+j_3.TextSize = 17.000
+j_3.TextStrokeTransparency = 0.810
+
+m.CornerRadius = UDim.new(0, 10)
+m.Name = "m"
+m.Parent = j_3
+
+j_4.Name = "j"
+j_4.Parent = a_5
+j_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+j_4.BorderSizePixel = 0
+j_4.Position = UDim2.new(0.0500000007, 0, 0.720000029, 0)
+j_4.Size = UDim2.new(0, 157, 0, 15)
+j_4.Font = Enum.Font.SourceSans
+j_4.Text = "Lag Switch"
+j_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+j_4.TextSize = 17.000
+j_4.TextStrokeTransparency = 0.810
+
+p.CornerRadius = UDim.new(0, 10)
+p.Name = "p"
+p.Parent = j_4
+
+j_5.Name = "j"
+j_5.Parent = a_5
+j_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+j_5.BorderSizePixel = 0
+j_5.Position = UDim2.new(0.0444470011, 0, 0.20677425, 0)
+j_5.Size = UDim2.new(0, 157, 0, 15)
+j_5.Font = Enum.Font.SourceSans
+j_5.Text = "Radio GUI"
+j_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+j_5.TextSize = 17.000
+j_5.TextStrokeTransparency = 0.810
+
+l.CornerRadius = UDim.new(0, 10)
+l.Name = "l"
+l.Parent = j_5
+
+j_6.Name = "j"
+j_6.Parent = a_5
+j_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+j_6.BorderSizePixel = 0
+j_6.Position = UDim2.new(0.0439999998, 0, 0.383859664, 0)
+j_6.Size = UDim2.new(0, 157, 0, 15)
+j_6.Font = Enum.Font.SourceSans
+j_6.Text = "Kill All"
+j_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+j_6.TextSize = 17.000
+j_6.TextStrokeTransparency = 0.810
+
+k.CornerRadius = UDim.new(0, 10)
+k.Name = "k"
+k.Parent = j_6
+
+a_6.Name = "a"
+a_6.Parent = d
+a_6.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+a_6.BackgroundTransparency = 1.000
+a_6.Position = UDim2.new(0.50899744, 0, 4.44999981, 0)
+a_6.Size = UDim2.new(0, 174, 0, 308)
+
+i.Name = "i"
+i.Parent = a_6
+
+a_7.Name = "a"
+a_7.Parent = d
+
+h_10.Name = "h"
+h_10.Parent = d
+h_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+h_10.BorderSizePixel = 0
+h_10.Position = UDim2.new(0.516709507, 0, 4.55000162, 0)
+h_10.Size = UDim2.new(0, 168, 0, 317)
+h_10.Image = "http://www.roblox.com/asset/?id=9191996974"
+
+h_11.Name = "h"
+h_11.Parent = h_10
+h_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+h_11.BackgroundTransparency = 1.000
+h_11.BorderSizePixel = 0
+h_11.Position = UDim2.new(-0.065476194, 0, 0.350157738, 0)
+h_11.Size = UDim2.new(0, 200, 0, 50)
+h_11.Font = Enum.Font.SourceSans
+h_11.Text = "buy the full version"
+h_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+h_11.TextSize = 27.000
+h_11.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+h_11.TextStrokeTransparency = 0.450
+
+-- Scripts:
+
+local function NIVXQV_fake_script() -- h_3.s 
+	local script = Instance.new('Script', h_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+	
+end
+coroutine.wrap(NIVXQV_fake_script)()
+local function YCQBLSC_fake_script() -- h_4.s 
+	local script = Instance.new('Script', h_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/tpgui'),true))()
+	end)
+	
+end
+coroutine.wrap(YCQBLSC_fake_script)()
+local function SRHPB_fake_script() -- h_5.s 
+	local script = Instance.new('Script', h_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source'),true))()
+	end)
+	
+end
+coroutine.wrap(SRHPB_fake_script)()
+local function AUAWTG_fake_script() -- h_6.s 
+	local script = Instance.new('Script', h_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/inviz'),true))()
+	end)
+	
+end
+coroutine.wrap(AUAWTG_fake_script)()
+local function RNFWS_fake_script() -- h_7.s 
+	local script = Instance.new('Script', h_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/qtotp'),true))()
+	end)
+	
+end
+coroutine.wrap(RNFWS_fake_script)()
+local function VCEWEO_fake_script() -- h_8.s 
+	local script = Instance.new('Script', h_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/ac6new'),true))()
+	end)
+	
+end
+coroutine.wrap(VCEWEO_fake_script)()
+local function ZNAFFS_fake_script() -- h_9.s 
+	local script = Instance.new('Script', h_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'),true))()
+	end)
+	
+end
+coroutine.wrap(ZNAFFS_fake_script)()
+local function EROTRF_fake_script() -- d.a 
+	local script = Instance.new('LocalScript', d)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0.50
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.30), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(EROTRF_fake_script)()
+local function JSSNBQ_fake_script() -- j_3.m 
+	local script = Instance.new('Script', j_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/svlagger'),true))()
+	end)
+	
+end
+coroutine.wrap(JSSNBQ_fake_script)()
+local function HGHX_fake_script() -- j_4.p 
+	local script = Instance.new('Script', j_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://paste.gg/p/anonymous/d3492bd620bd4c46b54680ac80b0fa0d/files/161ddd9c992c4ceba3c298458d45188a/raw'),true))()
+	end)
+	
+end
+coroutine.wrap(HGHX_fake_script)()
+local function TKSBCFV_fake_script() -- j_5.l 
+	local script = Instance.new('Script', j_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/radio.txt'),true))()
+	end)
+	
+end
+coroutine.wrap(TKSBCFV_fake_script)()
+local function THXS_fake_script() -- j_6.k 
+	local script = Instance.new('Script', j_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/acs'),true))()
+	end)
+	
+end
+coroutine.wrap(THXS_fake_script)()
+local function LYVEYA_fake_script() -- _1.b 
+	local script = Instance.new('LocalScript', _1)
+
+	local Settings, Data = {
+		ApplyToLeaderboard = true,
+		IdentifyFriends = true,
+		FriendIdentifier = ' [Friend]',
+		BlockedIdentifier = ' Blocked',
+		Orientation = 'Vertical',
+		DisplayNameToName = false,
+		ShowBlockedInName = false
+	}, { -- [Essential Data] Don't edit this table unless you know what you're doing and want a functional script, please. ;) - mothwa
+		Main = 'rbxasset://LuaPackages/Packages/_Index/UIBlox/UIBlox/App/ImageSet/ImageAtlas/img_set_1x_1.png',
+		Friend = 'rbxasset://LuaPackages/Packages/_Index/UIBlox/UIBlox/App/ImageSet/ImageAtlas/img_set_1x_3.png',
+		BlockedPos = '488, 133',
+		PremiumPos = '484, 489',
+		FriendPos = '230, 301'    
+	}
+	local Players, LP, PLM = nil, nil, nil
+	
+	local function FindChildByOrder(parent, tbl, returnInstance)
+		if parent and tbl and typeof(parent) == 'Instance' and type(tbl) == 'table' and #tbl > 0 then
+			local Current = parent;
+			for _, v in next, tbl do
+				coroutine.wrap(function()
+					if type(v) == 'string' and Current:FindFirstChild(v) then
+						Current = Current:FindFirstChild(v)
+					else
+						return false
+					end
+				end)()
+			end
+			if not returnInstance then
+				return true
+			elseif returnInstance then
+				return Current
+			end
+		end
+	end
+	
+	local function GetPlayer(data)
+		if type(data) == 'string' then
+			for _, v in next, Players:GetPlayers() do
+				if v.Name:lower():match('^'..data:lower()) or v.DisplayName:lower():match('^'..data:lower()) then
+					return v
+				end
+			end
+		elseif type(data) == 'number' then
+			for _, v in next, Players:GetPlayers() do
+				if v.UserId == data then
+					return v
+				end
+			end
+		end
+	end
+	
+	local function UpdateLeaderboardDisplayName(userId, returnStatusOnly)
+		local PLM = FindChildByOrder(game:GetService('CoreGui'), {'PlayerList', 'PlayerListMaster', 'OffsetFrame', 'PlayerScrollList', 'SizeOffsetFrame', 'ScrollingFrameContainer', 'ScrollingFrameClippingFrame', 'ScollingFrame', 'OffsetUndoFrame'}, true)
+		if PLM then
+			for I, PlayerNameInstance in next, PLM:GetChildren() do
+				if PlayerNameInstance.Name:match(tostring(userId)..'$') then
+					if not returnStatusOnly or returnStatusOnly == false then
+						local TP, NLabel, Status = GetPlayer(0 + PlayerNameInstance.Name:gsub('p_', '')), FindChildByOrder(PlayerNameInstance, {'ChildrenFrame', 'NameFrame', 'BGFrame', 'OverlayFrame', 'PlayerName', 'PlayerName'}, true), FindChildByOrder(PlayerNameInstance, {'ChildrenFrame', 'NameFrame', 'BGFrame', 'OverlayFrame', 'PlayerIcon'}, true)
+						if getgenv().ADv5LiveSettings.ApplyToLeaderboard and getgenv().ADv5LiveSettings.ApplyToLeaderboard == true and getgenv().ADv5LiveSettings.DisplayNameToName and getgenv().ADv5LiveSettings.DisplayNameToName == true then
+							NLabel.RichText = false
+							NLabel.Text = TP.Name
+						else
+							if tostring(Status.ImageRectOffset) == Data.FriendPos then --1
+								if getgenv().ADv5LiveSettings.ApplyToLeaderboard and getgenv().ADv5LiveSettings.ApplyToLeaderboard == true and getgenv().ADv5LiveSettings.IdentifyFriends then
+									NLabel.RichText = true
+									if getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name ~= TP.DisplayName then
+										NLabel.Text = '<font color="#24EC00">'..TP.DisplayName..'\n(@'..TP.Name..')'..'</font>'
+									elseif getgenv().ADv5LiveSettings.Orientation == 'Horizontal' and TP.Name ~= TP.DisplayName then
+										NLabel.Text = '<font color="#24EC00">'..TP.DisplayName..' (@'..TP.Name..')'..'</font>'
+									elseif table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name == TP.DisplayName then
+										NLabel.Text = '<font color="#24EC00">'..TP.DisplayName..'</font>'
+									end
+								else
+									NLabel.RichText = false
+									NLabel.Text = TP.DisplayName
+								end
+							elseif tostring(Status.ImageRectOffset) == Data.BlockedPos then --2
+								if getgenv().ADv5LiveSettings.ApplyToLeaderboard and getgenv().ADv5LiveSettings.ApplyToLeaderboard == true and getgenv().ADv5LiveSettings.ShowBlockedInName then
+									NLabel.RichText = true
+									if getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name ~= TP.DisplayName then
+										NLabel.Text = '<font color="#FC0000">'..TP.DisplayName..'\n(@'..TP.Name..')'..'</font>'
+									elseif getgenv().ADv5LiveSettings.Orientation == 'Horizontal' and TP.Name ~= TP.DisplayName then
+										NLabel.Text = '<font color="#FC0000">'..TP.DisplayName..' (@'..TP.Name..')'..'</font>'
+									elseif getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name == TP.DisplayName then
+										NLabel.Text = '<font color="#FC0000">'..TP.DisplayName..'</font>'
+									elseif getgenv().ADv5LiveSettings.Orientation == 'Horizontal' and TP.Name ~= TP.DisplayName then
+										NLabel.Text = '<font color="#FC0000">'..TP.DisplayName..'</font>'
+									end
+								else
+									NLabel.RichText = false
+									NLabel.Text = TP.DisplayName
+								end
+							else --3
+								if getgenv().ADv5LiveSettings.ApplyToLeaderboard and getgenv().ADv5LiveSettings.ApplyToLeaderboard == true then
+									NLabel.RichText = true
+									if getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name ~= TP.DisplayName then
+										NLabel.Text = TP.DisplayName..'\n(@'..TP.Name..')'
+									elseif getgenv().ADv5LiveSettings.Orientation == 'Horizontal' and TP.Name ~= TP.DisplayName then
+										NLabel.Text = TP.DisplayName..' (@'..TP.Name..')'
+									elseif table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name == TP.DisplayName then
+										NLabel.Text = TP.DisplayName
+									end
+								else
+									NLabel.RichText = false
+									NLabel.Text = TP.DisplayName
+								end
+							end
+						end
+					elseif returnStatusOnly and returnStatusOnly == true then
+						local Status = FindChildByOrder(b, {'ChildrenFrame', 'NameFrame', 'BGFrame', 'OverlayFrame', 'PlayerIcon'}, true)
+						if Status then
+							return tostring(Status.ImageRectOffset)
+						end
+					end
+				end
+			end
+		end
+	end
+	
+	local function UpdateCharacterDisplayName(Char)
+		local TP, H = Players:GetPlayerFromCharacter(Char), Char:FindFirstChildWhichIsA('Humanoid')
+		if TP and H then
+			if getgenv().ADv5LiveSettings.DisplayNameToName == false then
+				if UpdateLeaderboardDisplayName(TP.UserId, true) == Data.FriendPos then --1
+					if getgenv().ADv5LiveSettings.IdentifyFriends then
+						if getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name ~= TP.DisplayName then
+							H.DisplayName = TP.DisplayName..'\n(@'..TP.Name..')\n'..getgenv().ADv5LiveSettings.FriendIdentifier
+						elseif getgenv().ADv5LiveSettings.Orientation == 'Horizontal' and TP.Name ~= TP.DisplayName then
+							H.DisplayName = TP.DisplayName..' (@'..TP.Name..')'..getgenv().ADv5LiveSettings.FriendIdentifier
+						elseif getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name == TP.DisplayName then
+							H.DisplayName = TP.DisplayName..'\n'..getgenv().ADv5LiveSettings.FriendIdentifier
+						elseif getgenv().ADv5LiveSettings.Orientation == 'Horizontal' and TP.Name == TP.DisplayName then
+							H.DisplayName = TP.DisplayName..getgenv().ADv5LiveSettings.FriendIdentifier
+						end
+					elseif not getgenv().ADv5LiveSettings.ShowBlockedInName then
+						H.DisplayName = TP.DisplayName
+					end
+				elseif UpdateLeaderboardDisplayName(TP.UserId, true) == Data.BlockedPos then --2
+					if getgenv().ADv5LiveSettings.ShowBlockedInName then
+						if getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name ~= TP.DisplayName then
+							H.DisplayName = TP.DisplayName..'\n(@'..TP.Name..')\n'..getgenv().ADv5LiveSettings.BlockedIdentifier
+						elseif getgenv().ADv5LiveSettings.Orientation == 'Horizontal' and TP.Name ~= TP.DisplayName then
+							H.DisplayName = TP.DisplayName..' (@'..TP.Name..')'..getgenv().ADv5LiveSettings.BlockedIdentifier
+						elseif getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name == TP.DisplayName then
+							H.DisplayName = TP.DisplayName..'\n'..getgenv().ADv5LiveSettings.BlockedIdentifier
+						elseif getgenv().ADv5LiveSettings.Orientation == 'Horizontal' and TP.Name == TP.DisplayName then
+							H.DisplayName = TP.DisplayName..getgenv().ADv5LiveSettings.BlockedIdentifier
+						end
+					elseif not getgenv().ADv5LiveSettings.ShowBlockedInName then
+						H.DisplayName = TP.DisplayName
+					end
+				else --3
+					if getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name ~= TP.DisplayName then
+						H.DisplayName = TP.DisplayName..'\n(@'..TP.Name..')'
+					elseif getgenv().ADv5LiveSettings.Orientation == 'Horizontal' and TP.Name ~= TP.DisplayName then
+						H.DisplayName = TP.DisplayName..' (@'..TP.Name..')'
+					elseif table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name == TP.DisplayName then
+						H.DisplayName = TP.DisplayName
+					end
+				end
+			else
+				if getgenv().ADv5LiveSettings.ApplyToLeaderboard == true then
+					UpdateLeaderboardDisplayName(TP.UserId)
+					H.DisplayName = TP.Name
+				else
+					H.DisplayName = TP.Name
+				end
+			end
+		end
+	end
+	
+	if not game['Loaded'] or not game:GetService('Players')['LocalPlayer'] then
+		game['Loaded']:Wait();
+		game:WaitForChild(game:GetService('Players'));
+		game:GetService('Players'):WaitForChild(game:GetService('Players').LocalPlayer.Name)
+	end
+	
+	Players, LP, PLM = game:GetService('Players'), game:GetService('Players').LocalPlayer, FindChildByOrder(game:GetService('CoreGui'), {'PlayerList', 'PlayerListMaster', 'OffsetFrame', 'PlayerScrollList', 'SizeOffsetFrame', 'ScrollingFrameContainer', 'ScrollingFrameClippingFrame', 'ScollingFrame', 'OffsetUndoFrame'}, true)
+	if PLM and not getgenv().ADv5LiveSettings then
+		PLM.ChildAdded:Connect(function(PlayerNameInstance)
+			local UID = 0 + PlayerNameInstance.Name:match('%d+')
+			if type(UID) == 'number' then
+				UpdateLeaderboardDisplayName(UID)
+			end
+		end)
+	end
+	
+	for _, v in next, Players:GetPlayers() do
+		task.spawn(function()
+			wait(.5)
+			if v ~= LP then
+				if v['Character'] then
+					UpdateCharacterDisplayName(v.Character)
+				end
+				v.CharacterAdded:Connect(function(Char)
+					wait()
+					UpdateCharacterDisplayName(Char)
+				end)
+				UpdateLeaderboardDisplayName(v.UserId)
+			end
+		end)
+	end
+	
+	if not getgenv().ADv5LiveSettings then
+		Players.PlayerAdded:Connect(function(Player)
+			wait(.5)
+			if Player['Character'] then
+				UpdateCharacterDisplayName(Player.Character)
+			end
+			Player.CharacterAdded:Connect(function(Char)
+				wait()
+				UpdateCharacterDisplayName(Char)
+			end)
+			UpdateLeaderboardDisplayName(Player.UserId)
+		end)
+	end
+	
+	getgenv().ADv5LiveSettings = Settings
+end
+coroutine.wrap(LYVEYA_fake_script)()
+local function OEBW_fake_script() -- _1.n 
+	local script = Instance.new('LocalScript', _1)
+
+	
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "IEdutzHub V3 Lite"; 
+		Text = "For the full version buy IEdutzHub V3!"; 
+		Icon = ""; 
+		Duration = 5; 
+		Button1 = "Ok!";
+	})
+end
+coroutine.wrap(OEBW_fake_script)()
+local function EEGI_fake_script() -- _1.y 
+	local script = Instance.new('LocalScript', _1)
+
+	
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "IEdutzHub V3 Lite"; 
+		Text = "Join the official Discord server! dsc.gg/iedutz"; 
+		Icon = ""; 
+		Duration = 5; 
+		Button1 = "Ok!";
+	})
+end
+coroutine.wrap(EEGI_fake_script)()
+local function YLSAX_fake_script() -- _1.z 
+	local script = Instance.new('LocalScript', _1)
+
+	while true do
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "IEdutzHub V3 Lite"; 
+		Text = "You can host your own ad on IEdutzHub V3 Lite at the price of 25 leis per month!"; 
+		Icon = ""; 
+		Duration = 30; 
+		Button1 = "Ok!";
+	})
+		wait(120)
+	end
+	
+end
+coroutine.wrap(YLSAX_fake_script)()
