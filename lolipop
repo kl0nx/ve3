@@ -983,7 +983,7 @@ local function RQRYEBJ_fake_script()
 	if getgenv().SendNotifications == true then
 		game:GetService("StarterGui"):SetCore("SendNotification", {
 			Title = "IEdutzHub V3",
-			Text = "If you don't see anything, contact the owner or buy it.",
+			Text = "If you don't see anything, you may got banned from the network.",
 			Icon = "rbxassetid://7582544082",
 			Duration = 5,
 		})
