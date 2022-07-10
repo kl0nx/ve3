@@ -1,766 +1,591 @@
-
-local _1 = Instance.new("ScreenGui")
-local d = Instance.new("Frame")
-local a = Instance.new("UICorner")
-local a_2 = Instance.new("Frame")
-local b = Instance.new("UICorner")
-local b_2 = Instance.new("UIGradient")
-local a_3 = Instance.new("Frame")
+local i = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local l = Instance.new("ImageLabel")
+local UIGradient = Instance.new("UIGradient")
+local f = Instance.new("ImageLabel")
 local h = Instance.new("UICorner")
-local h_2 = Instance.new("TextLabel")
-local h_3 = Instance.new("TextButton")
-local I = Instance.new("UICorner")
-local I_2 = Instance.new("UIGradient")
-local h_4 = Instance.new("TextButton")
-local I_3 = Instance.new("UICorner")
-local I_4 = Instance.new("UIGradient")
+local h_2 = Instance.new("ScrollingFrame")
+local u = Instance.new("Frame")
+local g = Instance.new("UICorner")
+local g_2 = Instance.new("TextLabel")
+local g_3 = Instance.new("TextButton")
+local g_4 = Instance.new("UICorner")
+local g_5 = Instance.new("TextButton")
+local g_6 = Instance.new("UICorner")
+local g_7 = Instance.new("TextButton")
+local g_8 = Instance.new("UICorner")
+local g_9 = Instance.new("TextButton")
+local g_10 = Instance.new("UICorner")
+local g_11 = Instance.new("TextButton")
+local g_12 = Instance.new("UICorner")
+local V = Instance.new("Frame")
+local z = Instance.new("UICorner")
+local z_2 = Instance.new("TextLabel")
+local z_3 = Instance.new("TextButton")
+local z_4 = Instance.new("UICorner")
+local z_5 = Instance.new("TextButton")
+local z_6 = Instance.new("UICorner")
+local p = Instance.new("Frame")
+local h_3 = Instance.new("UICorner")
+local h_4 = Instance.new("TextLabel")
 local h_5 = Instance.new("TextButton")
-local I_5 = Instance.new("UICorner")
-local I_6 = Instance.new("UIGradient")
-local h_6 = Instance.new("TextButton")
-local I_7 = Instance.new("UICorner")
-local I_8 = Instance.new("UIGradient")
+local h_6 = Instance.new("UICorner")
 local h_7 = Instance.new("TextButton")
-local I_9 = Instance.new("UICorner")
-local I_10 = Instance.new("UIGradient")
-local h_8 = Instance.new("TextButton")
-local I_11 = Instance.new("UICorner")
-local I_12 = Instance.new("UIGradient")
+local h_8 = Instance.new("UICorner")
 local h_9 = Instance.new("TextButton")
-local I_13 = Instance.new("UICorner")
-local I_14 = Instance.new("UIGradient")
-local a_4 = Instance.new("Frame")
-local _3 = Instance.new("UICorner")
-local _3_2 = Instance.new("TextLabel")
-local _3_3 = Instance.new("UIGradient")
-local a_5 = Instance.new("Frame")
-local j = Instance.new("UICorner")
-local j_2 = Instance.new("TextLabel")
-local j_3 = Instance.new("TextButton")
+local h_10 = Instance.new("UICorner")
+local _6 = Instance.new("Frame")
+local v = Instance.new("UICorner")
+local v_2 = Instance.new("TextLabel")
+local v_3 = Instance.new("TextButton")
+local v_4 = Instance.new("UICorner")
+local v_5 = Instance.new("TextButton")
+local v_6 = Instance.new("UICorner")
+local _1 = Instance.new("Frame")
 local m = Instance.new("UICorner")
-local m_2 = Instance.new("UIGradient")
-local j_4 = Instance.new("TextButton")
-local p = Instance.new("UICorner")
-local p_2 = Instance.new("UIGradient")
-local j_5 = Instance.new("TextButton")
-local l = Instance.new("UICorner")
-local l_2 = Instance.new("UIGradient")
-local j_6 = Instance.new("TextButton")
-local k = Instance.new("UICorner")
-local k_2 = Instance.new("UIGradient")
-local a_6 = Instance.new("Frame")
-local i = Instance.new("UICorner")
-local a_7 = Instance.new("Frame")
-local e = Instance.new("UICorner")
-local e_2 = Instance.new("TextLabel")
-local e_3 = Instance.new("TextButton")
-local I_15 = Instance.new("UICorner")
-local I_16 = Instance.new("UIGradient")
-local e_4 = Instance.new("TextButton")
-local I_17 = Instance.new("UICorner")
-local I_18 = Instance.new("UIGradient")
-local e_5 = Instance.new("TextButton")
-local I_19 = Instance.new("UICorner")
-local I_20 = Instance.new("UIGradient")
-local e_6 = Instance.new("TextButton")
-local I_21 = Instance.new("UICorner")
-local I_22 = Instance.new("UIGradient")
-local a_8 = Instance.new("Frame")
-local l_3 = Instance.new("UICorner")
-local l_4 = Instance.new("TextButton")
-local I_23 = Instance.new("UICorner")
-local I_24 = Instance.new("UIGradient")
-local l_5 = Instance.new("TextButton")
-local I_25 = Instance.new("UIGradient")
-local I_26 = Instance.new("UICorner")
-local l_6 = Instance.new("TextButton")
-local I_27 = Instance.new("UICorner")
-local I_28 = Instance.new("UIGradient")
-local l_7 = Instance.new("TextButton")
-local I_29 = Instance.new("UICorner")
-local I_30 = Instance.new("UIGradient")
-local l_8 = Instance.new("TextButton")
-local I_31 = Instance.new("UICorner")
-local I_32 = Instance.new("UIGradient")
-local l_9 = Instance.new("TextButton")
-local I_33 = Instance.new("UICorner")
-local I_34 = Instance.new("UIGradient")
-local l_10 = Instance.new("TextButton")
-local I_35 = Instance.new("UICorner")
-local I_36 = Instance.new("UIGradient")
-local l_11 = Instance.new("TextLabel")
-local a_9 = Instance.new("UIGradient")
-
---Properties:
-
-_1.Name = "1"
-_1.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-_1.DisplayOrder = 69
-_1.ResetOnSpawn = false
-
-d.Name = "d"
-d.Parent = _1
-d.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-d.Position = UDim2.new(0.20364584, 0, 0.289156616, 0)
-d.Size = UDim2.new(0, 389, 0, 20)
-
-a.Name = "a"
-a.Parent = d
-
-a_2.Name = "a"
-a_2.Parent = d
-a_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-a_2.Position = UDim2.new(0, 0, 3.70000005, 0)
-a_2.Size = UDim2.new(0, 389, 0, 351)
-
-b.Name = "b"
-b.Parent = a_2
-
-b_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.35, Color3.fromRGB(117, 117, 117)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(221, 221, 221))}
-b_2.Name = "b"
-b_2.Parent = a_2
-
-a_3.Name = "a"
-a_3.Parent = d
-a_3.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-a_3.Position = UDim2.new(0.0411311053, 0, 4.5, 0)
-a_3.Size = UDim2.new(0, 173, 0, 176)
-
-h.Name = "h"
-h.Parent = a_3
-
-h_2.Name = "h"
-h_2.Parent = a_3
-h_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-h_2.BackgroundTransparency = 1.000
-h_2.BorderSizePixel = 0
-h_2.Position = UDim2.new(-0.0309999995, 0, -0.00100000005, 0)
-h_2.Size = UDim2.new(0, 82, 0, 24)
-h_2.Font = Enum.Font.SourceSans
-h_2.Text = "Legit -------"
-h_2.TextColor3 = Color3.fromRGB(157, 157, 157)
-h_2.TextSize = 14.000
-h_2.TextStrokeTransparency = 0.230
-
-h_3.Name = "h"
-h_3.Parent = a_3
-h_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-h_3.BorderSizePixel = 0
-h_3.Position = UDim2.new(0.0439999998, 0, 0.25, 0)
-h_3.Size = UDim2.new(0, 158, 0, 14)
-h_3.Font = Enum.Font.SourceSans
-h_3.Text = "Infinite Yield"
-h_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-h_3.TextSize = 17.000
-h_3.TextStrokeTransparency = 0.810
-
-I.CornerRadius = UDim.new(0, 10)
-I.Name = "I"
-I.Parent = h_3
-
-I_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-I_2.Name = "I"
-I_2.Parent = h_3
-
-h_4.Name = "h"
-h_4.Parent = a_3
-h_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-h_4.BorderSizePixel = 0
-h_4.Position = UDim2.new(0.044449117, 0, 0.13450563, 0)
-h_4.Size = UDim2.new(0, 158, 0, 14)
-h_4.Font = Enum.Font.SourceSans
-h_4.Text = "TP GUI"
-h_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-h_4.TextSize = 17.000
-h_4.TextStrokeTransparency = 0.810
-
-I_3.CornerRadius = UDim.new(0, 10)
-I_3.Name = "I"
-I_3.Parent = h_4
-
-I_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-I_4.Name = "I"
-I_4.Parent = h_4
-
-h_5.Name = "h"
-h_5.Parent = a_3
-h_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-h_5.BorderSizePixel = 0
-h_5.Position = UDim2.new(0.0439999998, 0, 0.360000014, 0)
-h_5.Size = UDim2.new(0, 158, 0, 14)
-h_5.Font = Enum.Font.SourceSans
-h_5.Text = "CMD-X"
-h_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-h_5.TextSize = 17.000
-h_5.TextStrokeTransparency = 0.810
-
-I_5.CornerRadius = UDim.new(0, 10)
-I_5.Name = "I"
-I_5.Parent = h_5
-
-I_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-I_6.Name = "I"
-I_6.Parent = h_5
-
-h_6.Name = "h"
-h_6.Parent = a_3
-h_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-h_6.BorderSizePixel = 0
-h_6.Position = UDim2.new(0.0439999998, 0, 0.469999999, 0)
-h_6.Size = UDim2.new(0, 158, 0, 14)
-h_6.Font = Enum.Font.SourceSans
-h_6.Text = "Invisibility"
-h_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-h_6.TextSize = 17.000
-h_6.TextStrokeTransparency = 0.810
-
-I_7.CornerRadius = UDim.new(0, 10)
-I_7.Name = "I"
-I_7.Parent = h_6
-
-I_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-I_8.Name = "I"
-I_8.Parent = h_6
-
-h_7.Name = "h"
-h_7.Parent = a_3
-h_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-h_7.BorderSizePixel = 0
-h_7.Position = UDim2.new(0.0399999991, 0, 0.579999983, 0)
-h_7.Size = UDim2.new(0, 158, 0, 14)
-h_7.Font = Enum.Font.SourceSans
-h_7.Text = "Q to TP"
-h_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-h_7.TextSize = 17.000
-h_7.TextStrokeTransparency = 0.810
-
-I_9.CornerRadius = UDim.new(0, 10)
-I_9.Name = "I"
-I_9.Parent = h_7
-
-I_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-I_10.Name = "I"
-I_10.Parent = h_7
-
-h_8.Name = "h"
-h_8.Parent = a_3
-h_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-h_8.BorderSizePixel = 0
-h_8.Position = UDim2.new(0.0399999991, 0, 0.689999998, 0)
-h_8.Size = UDim2.new(0, 158, 0, 14)
-h_8.Font = Enum.Font.SourceSans
-h_8.Text = "AC6 Speed"
-h_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-h_8.TextSize = 17.000
-h_8.TextStrokeTransparency = 0.810
-
-I_11.CornerRadius = UDim.new(0, 10)
-I_11.Name = "I"
-I_11.Parent = h_8
-
-I_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-I_12.Name = "I"
-I_12.Parent = h_8
-
-h_9.Name = "h"
-h_9.Parent = a_3
-h_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-h_9.BorderSizePixel = 0
-h_9.Position = UDim2.new(0.0340000018, 0, 0.790000021, 0)
-h_9.Size = UDim2.new(0, 158, 0, 14)
-h_9.Font = Enum.Font.SourceSans
-h_9.Text = "Unnamed ESP"
-h_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-h_9.TextSize = 17.000
-h_9.TextStrokeTransparency = 0.810
-
-I_13.CornerRadius = UDim.new(0, 10)
-I_13.Name = "I"
-I_13.Parent = h_9
-
-I_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-I_14.Name = "I"
-I_14.Parent = h_9
-
-a_4.Name = "a"
-a_4.Parent = d
-a_4.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-a_4.BorderSizePixel = 0
-a_4.Position = UDim2.new(0, 0, 0.400000006, 0)
-a_4.Size = UDim2.new(0, 390, 0, 52)
-
-_3.Name = "3"
-_3.Parent = a_4
-
-_3_2.Name = "3"
-_3_2.Parent = a_4
-_3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-_3_2.BackgroundTransparency = 1.000
-_3_2.Position = UDim2.new(0.0199999996, 0, -0.00200000009, 0)
-_3_2.Size = UDim2.new(0, 117, 0, 50)
-_3_2.Font = Enum.Font.SourceSansBold
-_3_2.Text = "iedutzhub v3"
-_3_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-_3_2.TextSize = 22.000
-
-_3_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.35, Color3.fromRGB(117, 117, 117)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(221, 221, 221))}
-_3_3.Name = "3"
-_3_3.Parent = a_4
-
-a_5.Name = "a"
-a_5.Parent = d
-a_5.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-a_5.Position = UDim2.new(0.0411311053, 0, 14.1499996, 0)
-a_5.Size = UDim2.new(0, 173, 0, 114)
-
-j.Name = "j"
-j.Parent = a_5
-
-j_2.Name = "j"
-j_2.Parent = a_5
-j_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-j_2.BackgroundTransparency = 1.000
-j_2.BorderSizePixel = 0
-j_2.Position = UDim2.new(-0.0309999995, 0, -0.00100000005, 0)
-j_2.Size = UDim2.new(0, 82, 0, 24)
-j_2.Font = Enum.Font.SourceSans
-j_2.Text = "Rage -------"
-j_2.TextColor3 = Color3.fromRGB(157, 157, 157)
-j_2.TextSize = 14.000
-j_2.TextStrokeTransparency = 0.230
-
-j_3.Name = "j"
-j_3.Parent = a_5
-j_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-j_3.BorderSizePixel = 0
-j_3.Position = UDim2.new(0.0439999998, 0, 0.550000012, 0)
-j_3.Size = UDim2.new(0, 157, 0, 15)
-j_3.Font = Enum.Font.SourceSans
-j_3.Text = "Server Lagger"
-j_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-j_3.TextSize = 17.000
-j_3.TextStrokeTransparency = 0.810
-
-m.CornerRadius = UDim.new(0, 10)
-m.Name = "m"
-m.Parent = j_3
-
-m_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-m_2.Name = "m"
-m_2.Parent = j_3
-
-j_4.Name = "j"
-j_4.Parent = a_5
-j_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-j_4.BorderSizePixel = 0
-j_4.Position = UDim2.new(0.0500000007, 0, 0.720000029, 0)
-j_4.Size = UDim2.new(0, 157, 0, 15)
-j_4.Font = Enum.Font.SourceSans
-j_4.Text = "Lag Switch"
-j_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-j_4.TextSize = 17.000
-j_4.TextStrokeTransparency = 0.810
-
-p.CornerRadius = UDim.new(0, 10)
-p.Name = "p"
-p.Parent = j_4
-
-p_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-p_2.Name = "p"
-p_2.Parent = j_4
-
-j_5.Name = "j"
-j_5.Parent = a_5
-j_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-j_5.BorderSizePixel = 0
-j_5.Position = UDim2.new(0.0444470011, 0, 0.20677425, 0)
-j_5.Size = UDim2.new(0, 157, 0, 15)
-j_5.Font = Enum.Font.SourceSans
-j_5.Text = "Radio GUI"
-j_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-j_5.TextSize = 17.000
-j_5.TextStrokeTransparency = 0.810
-
-l.CornerRadius = UDim.new(0, 10)
-l.Name = "l"
-l.Parent = j_5
-
-l_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-l_2.Name = "l"
-l_2.Parent = j_5
-
-j_6.Name = "j"
-j_6.Parent = a_5
-j_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-j_6.BorderSizePixel = 0
-j_6.Position = UDim2.new(0.0439999998, 0, 0.383859664, 0)
-j_6.Size = UDim2.new(0, 157, 0, 15)
-j_6.Font = Enum.Font.SourceSans
-j_6.Text = "Kill All"
-j_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-j_6.TextSize = 17.000
-j_6.TextStrokeTransparency = 0.810
-
-k.CornerRadius = UDim.new(0, 10)
-k.Name = "k"
-k.Parent = j_6
-
-k_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-k_2.Name = "k"
-k_2.Parent = j_6
-
-a_6.Name = "a"
-a_6.Parent = d
-a_6.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-a_6.BackgroundTransparency = 1.000
-a_6.Position = UDim2.new(0.50899744, 0, 4.44999981, 0)
-a_6.Size = UDim2.new(0, 174, 0, 308)
+local m_2 = Instance.new("TextLabel")
+local m_3 = Instance.new("TextButton")
+local m_4 = Instance.new("UICorner")
+local m_5 = Instance.new("TextButton")
+local m_6 = Instance.new("UICorner")
+local _2 = Instance.new("Frame")
+local u_2 = Instance.new("UICorner")
+local u_3 = Instance.new("TextLabel")
+local u_4 = Instance.new("TextButton")
+local u_5 = Instance.new("UICorner")
+local u_6 = Instance.new("TextButton")
+local u_7 = Instance.new("UICorner")
+local u_8 = Instance.new("TextButton")
+local u_9 = Instance.new("UICorner")
+local u_10 = Instance.new("TextButton")
+local u_11 = Instance.new("UICorner")
+local u_12 = Instance.new("TextButton")
+local u_13 = Instance.new("UICorner")
 
 i.Name = "i"
-i.Parent = a_6
+i.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+i.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+i.ResetOnSpawn = false
 
-a_7.Name = "a"
-a_7.Parent = d
-a_7.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-a_7.Position = UDim2.new(0.50899744, 0, 4.5999999, 0)
-a_7.Size = UDim2.new(0, 173, 0, 114)
+Frame.Parent = i
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.306249946, 0, 0.257407427, 0)
+Frame.Size = UDim2.new(0, 488, 0, 294)
 
-e.Name = "e"
-e.Parent = a_7
+l.Name = "l"
+l.Parent = Frame
+l.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+l.BackgroundTransparency = 1.000
+l.BorderSizePixel = 0
+l.Position = UDim2.new(-0.0921263695, 0, -0.0991224647, 0)
+l.Size = UDim2.new(0, 577, 0, 351)
+l.Image = "rbxassetid://10157249732"
+l.ImageTransparency = 0.500
 
-e_2.Name = "e"
-e_2.Parent = a_7
-e_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-e_2.BackgroundTransparency = 1.000
-e_2.BorderSizePixel = 0
-e_2.Position = UDim2.new(-0.0309999995, 0, -0.00100000005, 0)
-e_2.Size = UDim2.new(0, 82, 0, 24)
-e_2.Font = Enum.Font.SourceSans
-e_2.Text = "              Protection -------"
-e_2.TextColor3 = Color3.fromRGB(157, 157, 157)
-e_2.TextSize = 14.000
-e_2.TextStrokeTransparency = 0.230
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(103, 103, 103))}
+UIGradient.Parent = l
 
-e_3.Name = "e"
-e_3.Parent = a_7
-e_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-e_3.BorderSizePixel = 0
-e_3.Position = UDim2.new(0.0439999998, 0, 0.550000012, 0)
-e_3.Size = UDim2.new(0, 157, 0, 15)
-e_3.Font = Enum.Font.SourceSans
-e_3.Text = "Anti-Fling"
-e_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-e_3.TextSize = 17.000
-e_3.TextStrokeTransparency = 0.810
+f.Name = "f"
+f.Parent = Frame
+f.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+f.BorderSizePixel = 0
+f.Position = UDim2.new(-0.00158667564, 0, -0.000842094421, 0)
+f.Size = UDim2.new(0, 488, 0, 294)
+f.Image = "rbxassetid://10157249399"
 
-I_15.CornerRadius = UDim.new(0, 10)
-I_15.Name = "I"
-I_15.Parent = e_3
+h.CornerRadius = UDim.new(0, 5)
+h.Name = "h"
+h.Parent = f
 
-I_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-I_16.Name = "I"
-I_16.Parent = e_3
+h_2.Name = "h"
+h_2.Parent = f
+h_2.Active = true
+h_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+h_2.BackgroundTransparency = 0.650
+h_2.BorderSizePixel = 0
+h_2.Position = UDim2.new(0.304532647, 0, 0, 0)
+h_2.Size = UDim2.new(0, 332, 0, 294)
+h_2.CanvasSize = UDim2.new(0, 0, 3.20000005, 0)
 
-e_4.Name = "e"
-e_4.Parent = a_7
-e_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-e_4.BorderSizePixel = 0
-e_4.Position = UDim2.new(0.0500000007, 0, 0.720000029, 0)
-e_4.Size = UDim2.new(0, 157, 0, 15)
-e_4.Font = Enum.Font.SourceSans
-e_4.Text = "Anti-AFK"
-e_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-e_4.TextSize = 17.000
-e_4.TextStrokeTransparency = 0.810
+u.Name = "u"
+u.Parent = h_2
+u.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+u.BackgroundTransparency = 0.400
+u.BorderSizePixel = 0
+u.Position = UDim2.new(0.0189999994, 0, 0.00999999978, 0)
+u.Size = UDim2.new(0, 308, 0, 205)
 
-I_17.CornerRadius = UDim.new(0, 10)
-I_17.Name = "I"
-I_17.Parent = e_4
+g.Name = "g"
+g.Parent = u
 
-I_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-I_18.Name = "I"
-I_18.Parent = e_4
+g_2.Name = "g"
+g_2.Parent = u
+g_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+g_2.BackgroundTransparency = 1.000
+g_2.BorderSizePixel = 0
+g_2.Position = UDim2.new(0.0292207785, 0, -0.044878047, 0)
+g_2.Size = UDim2.new(0, 200, 0, 50)
+g_2.Font = Enum.Font.Code
+g_2.Text = "--- Universal scripts"
+g_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+g_2.TextSize = 14.000
+g_2.TextXAlignment = Enum.TextXAlignment.Left
 
-e_5.Name = "e"
-e_5.Parent = a_7
-e_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-e_5.BorderSizePixel = 0
-e_5.Position = UDim2.new(0.0444470011, 0, 0.20677425, 0)
-e_5.Size = UDim2.new(0, 157, 0, 15)
-e_5.Font = Enum.Font.SourceSans
-e_5.Text = "Anti-Lag"
-e_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-e_5.TextSize = 17.000
-e_5.TextStrokeTransparency = 0.810
+g_3.Name = "g"
+g_3.Parent = u
+g_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+g_3.BackgroundTransparency = 0.400
+g_3.BorderSizePixel = 0
+g_3.Position = UDim2.new(0.0292207785, 0, 0.146666661, 0)
+g_3.Size = UDim2.new(0, 289, 0, 22)
+g_3.Font = Enum.Font.SourceSans
+g_3.Text = "   Infinite Yield"
+g_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+g_3.TextSize = 14.000
+g_3.TextXAlignment = Enum.TextXAlignment.Left
 
-I_19.CornerRadius = UDim.new(0, 10)
-I_19.Name = "I"
-I_19.Parent = e_5
+g_4.CornerRadius = UDim.new(0, 3)
+g_4.Name = "g"
+g_4.Parent = g_3
 
-I_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-I_20.Name = "I"
-I_20.Parent = e_5
+g_5.Name = "g"
+g_5.Parent = u
+g_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+g_5.BackgroundTransparency = 0.400
+g_5.BorderSizePixel = 0
+g_5.Position = UDim2.new(0.0292207785, 0, 0.304823816, 0)
+g_5.Size = UDim2.new(0, 289, 0, 22)
+g_5.Font = Enum.Font.SourceSans
+g_5.Text = "   Remote Spy"
+g_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+g_5.TextSize = 14.000
+g_5.TextXAlignment = Enum.TextXAlignment.Left
 
-e_6.Name = "e"
-e_6.Parent = a_7
-e_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-e_6.BorderSizePixel = 0
-e_6.Position = UDim2.new(0.0439999998, 0, 0.383859664, 0)
-e_6.Size = UDim2.new(0, 157, 0, 15)
-e_6.Font = Enum.Font.SourceSans
-e_6.Text = "Anti-Post"
-e_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-e_6.TextSize = 17.000
-e_6.TextStrokeTransparency = 0.810
+g_6.CornerRadius = UDim.new(0, 3)
+g_6.Name = "g"
+g_6.Parent = g_5
 
-I_21.CornerRadius = UDim.new(0, 10)
-I_21.Name = "I"
-I_21.Parent = e_6
+g_7.Name = "g"
+g_7.Parent = u
+g_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+g_7.BackgroundTransparency = 0.400
+g_7.BorderSizePixel = 0
+g_7.Position = UDim2.new(0.0292207785, 0, 0.458102942, 0)
+g_7.Size = UDim2.new(0, 289, 0, 22)
+g_7.Font = Enum.Font.SourceSans
+g_7.Text = "   CMD-X"
+g_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+g_7.TextSize = 14.000
+g_7.TextXAlignment = Enum.TextXAlignment.Left
 
-I_22.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-I_22.Name = "I"
-I_22.Parent = e_6
+g_8.CornerRadius = UDim.new(0, 3)
+g_8.Name = "g"
+g_8.Parent = g_7
 
-a_8.Name = "a"
-a_8.Parent = d
-a_8.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-a_8.Position = UDim2.new(0.511568248, 0, 11.0499992, 0)
-a_8.Size = UDim2.new(0, 173, 0, 176)
+g_9.Name = "g"
+g_9.Parent = u
+g_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+g_9.BackgroundTransparency = 0.400
+g_9.BorderSizePixel = 0
+g_9.Position = UDim2.new(0.0292207785, 0, 0.611382067, 0)
+g_9.Size = UDim2.new(0, 289, 0, 22)
+g_9.Font = Enum.Font.SourceSans
+g_9.Text = "   Fate's Admin"
+g_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+g_9.TextSize = 14.000
+g_9.TextXAlignment = Enum.TextXAlignment.Left
 
-l_3.Name = "l"
-l_3.Parent = a_8
+g_10.CornerRadius = UDim.new(0, 3)
+g_10.Name = "g"
+g_10.Parent = g_9
 
-l_4.Name = "l"
-l_4.Parent = a_8
-l_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-l_4.BorderSizePixel = 0
-l_4.Position = UDim2.new(0.0419999994, 0, 0.245681807, 0)
-l_4.Size = UDim2.new(0, 158, 0, 14)
-l_4.Font = Enum.Font.SourceSans
-l_4.Text = "Hydroxide"
-l_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-l_4.TextSize = 17.000
-l_4.TextStrokeTransparency = 0.810
+g_11.Name = "g"
+g_11.Parent = u
+g_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+g_11.BackgroundTransparency = 0.400
+g_11.BorderSizePixel = 0
+g_11.Position = UDim2.new(0.0292207785, 0, 0.774417341, 0)
+g_11.Size = UDim2.new(0, 289, 0, 22)
+g_11.Font = Enum.Font.SourceSans
+g_11.Text = "   Save Instances"
+g_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+g_11.TextSize = 14.000
+g_11.TextXAlignment = Enum.TextXAlignment.Left
 
-I_23.CornerRadius = UDim.new(0, 10)
-I_23.Name = "I"
-I_23.Parent = l_4
+g_12.CornerRadius = UDim.new(0, 3)
+g_12.Name = "g"
+g_12.Parent = g_11
 
-I_24.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-I_24.Name = "I"
-I_24.Parent = l_4
+V.Name = "V"
+V.Parent = h_2
+V.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+V.BackgroundTransparency = 0.400
+V.BorderSizePixel = 0
+V.Position = UDim2.new(0.0189879984, 0, 0.241619781, 0)
+V.Size = UDim2.new(0, 308, 0, 103)
 
-l_5.Name = "l"
-l_5.Parent = a_8
-l_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-l_5.BorderSizePixel = 0
-l_5.Position = UDim2.new(0.0419999994, 0, 0.350681812, 0)
-l_5.Size = UDim2.new(0, 157, 0, 15)
-l_5.Font = Enum.Font.SourceSans
-l_5.Text = "Simple Spy"
-l_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-l_5.TextSize = 17.000
-l_5.TextStrokeTransparency = 0.810
+z.Name = "z"
+z.Parent = V
 
-I_25.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-I_25.Name = "I"
-I_25.Parent = l_5
+z_2.Name = "z"
+z_2.Parent = V
+z_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+z_2.BackgroundTransparency = 1.000
+z_2.BorderSizePixel = 0
+z_2.Position = UDim2.new(0.0292207785, 0, -0.103089914, 0)
+z_2.Size = UDim2.new(0, 200, 0, 50)
+z_2.Font = Enum.Font.Code
+z_2.Text = "--- Visuals"
+z_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+z_2.TextSize = 14.000
+z_2.TextXAlignment = Enum.TextXAlignment.Left
 
-I_26.CornerRadius = UDim.new(0, 10)
-I_26.Name = "I"
-I_26.Parent = l_5
+z_3.Name = "z"
+z_3.Parent = V
+z_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+z_3.BackgroundTransparency = 0.400
+z_3.BorderSizePixel = 0
+z_3.Position = UDim2.new(0.0289999992, 0, 0.270000011, 0)
+z_3.Size = UDim2.new(0, 289, 0, 22)
+z_3.Font = Enum.Font.SourceSans
+z_3.Text = "   Night Mode"
+z_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+z_3.TextSize = 14.000
+z_3.TextXAlignment = Enum.TextXAlignment.Left
 
-l_6.Name = "l"
-l_6.Parent = a_8
-l_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-l_6.BorderSizePixel = 0
-l_6.Position = UDim2.new(0.0419999994, 0, 0.460681826, 0)
-l_6.Size = UDim2.new(0, 157, 0, 15)
-l_6.Font = Enum.Font.SourceSans
-l_6.Text = "Backdoor Finder"
-l_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-l_6.TextSize = 17.000
-l_6.TextStrokeTransparency = 0.810
+z_4.CornerRadius = UDim.new(0, 3)
+z_4.Name = "z"
+z_4.Parent = z_3
 
-I_27.CornerRadius = UDim.new(0, 10)
-I_27.Name = "I"
-I_27.Parent = l_6
+z_5.Name = "z"
+z_5.Parent = V
+z_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+z_5.BackgroundTransparency = 0.400
+z_5.BorderSizePixel = 0
+z_5.Position = UDim2.new(0.0289999992, 0, 0.560000002, 0)
+z_5.Size = UDim2.new(0, 289, 0, 22)
+z_5.Font = Enum.Font.SourceSans
+z_5.Text = "   Performance Mode"
+z_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+z_5.TextSize = 14.000
+z_5.TextXAlignment = Enum.TextXAlignment.Left
 
-I_28.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-I_28.Name = "I"
-I_28.Parent = l_6
+z_6.CornerRadius = UDim.new(0, 3)
+z_6.Name = "z"
+z_6.Parent = z_5
 
-l_7.Name = "l"
-l_7.Parent = a_8
-l_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-l_7.BorderSizePixel = 0
-l_7.Position = UDim2.new(0.0419999994, 0, 0.140681818, 0)
-l_7.Size = UDim2.new(0, 158, 0, 14)
-l_7.Font = Enum.Font.SourceSans
-l_7.Text = "Hacking skybox "
-l_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-l_7.TextSize = 17.000
-l_7.TextStrokeTransparency = 0.810
+p.Name = "p"
+p.Parent = h_2
+p.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+p.BackgroundTransparency = 0.400
+p.BorderSizePixel = 0
+p.Position = UDim2.new(0.0189999994, 0, 0.364214152, 0)
+p.Size = UDim2.new(0, 308, 0, 137)
 
-I_29.CornerRadius = UDim.new(0, 10)
-I_29.Name = "I"
-I_29.Parent = l_7
+h_3.Name = "h"
+h_3.Parent = p
 
-I_30.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-I_30.Name = "I"
-I_30.Parent = l_7
+h_4.Name = "h"
+h_4.Parent = p
+h_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+h_4.BackgroundTransparency = 1.000
+h_4.BorderSizePixel = 0
+h_4.Position = UDim2.new(0.0289999992, 0, -0.0700000003, 0)
+h_4.Size = UDim2.new(0, 200, 0, 50)
+h_4.Font = Enum.Font.Code
+h_4.Text = "--- Protection"
+h_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+h_4.TextSize = 14.000
+h_4.TextXAlignment = Enum.TextXAlignment.Left
 
-l_8.Name = "l"
-l_8.Parent = a_8
-l_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-l_8.BorderSizePixel = 0
-l_8.Position = UDim2.new(0.0419999994, 0, 0.780681789, 0)
-l_8.Size = UDim2.new(0, 157, 0, 15)
-l_8.Font = Enum.Font.SourceSans
-l_8.Text = "SIAS TEAM"
-l_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-l_8.TextSize = 17.000
-l_8.TextStrokeTransparency = 0.810
+h_5.Name = "h"
+h_5.Parent = p
+h_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+h_5.BackgroundTransparency = 0.400
+h_5.BorderSizePixel = 0
+h_5.Position = UDim2.new(0.0292207785, 0, 0.212360084, 0)
+h_5.Size = UDim2.new(0, 289, 0, 22)
+h_5.Font = Enum.Font.SourceSans
+h_5.Text = "   Anti-Fling"
+h_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+h_5.TextSize = 14.000
+h_5.TextXAlignment = Enum.TextXAlignment.Left
 
-I_31.CornerRadius = UDim.new(0, 10)
-I_31.Name = "I"
-I_31.Parent = l_8
+h_6.CornerRadius = UDim.new(0, 3)
+h_6.Name = "h"
+h_6.Parent = h_5
 
-I_32.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-I_32.Name = "I"
-I_32.Parent = l_8
+h_7.Name = "h"
+h_7.Parent = p
+h_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+h_7.BackgroundTransparency = 0.400
+h_7.BorderSizePixel = 0
+h_7.Position = UDim2.new(0.0292207804, 0, 0.443509907, 0)
+h_7.Size = UDim2.new(0, 289, 0, 22)
+h_7.Font = Enum.Font.SourceSans
+h_7.Text = "   Anti-AFK"
+h_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+h_7.TextSize = 14.000
+h_7.TextXAlignment = Enum.TextXAlignment.Left
 
-l_9.Name = "l"
-l_9.Parent = a_8
-l_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-l_9.BorderSizePixel = 0
-l_9.Position = UDim2.new(0.0419999994, 0, 0.677681804, 0)
-l_9.Size = UDim2.new(0, 158, 0, 14)
-l_9.Font = Enum.Font.SourceSans
-l_9.Text = "Spam !help"
-l_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-l_9.TextSize = 17.000
-l_9.TextStrokeTransparency = 0.810
+h_8.CornerRadius = UDim.new(0, 3)
+h_8.Name = "h"
+h_8.Parent = h_7
 
-I_33.CornerRadius = UDim.new(0, 10)
-I_33.Name = "I"
-I_33.Parent = l_9
+h_9.Name = "h"
+h_9.Parent = p
+h_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+h_9.BackgroundTransparency = 0.400
+h_9.BorderSizePixel = 0
+h_9.Position = UDim2.new(0.0292207804, 0, 0.684380352, 0)
+h_9.Size = UDim2.new(0, 289, 0, 22)
+h_9.Font = Enum.Font.SourceSans
+h_9.Text = "   Anti-Post"
+h_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+h_9.TextSize = 14.000
+h_9.TextXAlignment = Enum.TextXAlignment.Left
 
-I_34.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-I_34.Name = "I"
-I_34.Parent = l_9
+h_10.CornerRadius = UDim.new(0, 3)
+h_10.Name = "h"
+h_10.Parent = h_9
 
-l_10.Name = "l"
-l_10.Parent = a_8
-l_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-l_10.BorderSizePixel = 0
-l_10.Position = UDim2.new(0.0419999994, 0, 0.57068181, 0)
-l_10.Size = UDim2.new(0, 157, 0, 15)
-l_10.Font = Enum.Font.SourceSans
-l_10.Text = "Save Instances"
-l_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-l_10.TextSize = 17.000
-l_10.TextStrokeTransparency = 0.810
+_6.Name = "6"
+_6.Parent = h_2
+_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_6.BackgroundTransparency = 0.400
+_6.BorderSizePixel = 0
+_6.Position = UDim2.new(0.0189999994, 0, 0.522000015, 0)
+_6.Size = UDim2.new(0, 308, 0, 103)
 
-I_35.CornerRadius = UDim.new(0, 10)
-I_35.Name = "I"
-I_35.Parent = l_10
+v.Name = "v"
+v.Parent = _6
 
-I_36.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 213, 0))}
-I_36.Name = "I"
-I_36.Parent = l_10
+v_2.Name = "v"
+v_2.Parent = _6
+v_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v_2.BackgroundTransparency = 1.000
+v_2.BorderSizePixel = 0
+v_2.Position = UDim2.new(0.0292207785, 0, -0.103089914, 0)
+v_2.Size = UDim2.new(0, 200, 0, 50)
+v_2.Font = Enum.Font.Code
+v_2.Text = "--- AC6 Scripts"
+v_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+v_2.TextSize = 14.000
+v_2.TextXAlignment = Enum.TextXAlignment.Left
 
-l_11.Name = "l"
-l_11.Parent = a_8
-l_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-l_11.BackgroundTransparency = 1.000
-l_11.BorderSizePixel = 0
-l_11.Position = UDim2.new(0.0383642986, 0, -0.000999970362, 0)
-l_11.Size = UDim2.new(0, 76, 0, 25)
-l_11.Font = Enum.Font.SourceSans
-l_11.Text = "Misc -------"
-l_11.TextColor3 = Color3.fromRGB(157, 157, 157)
-l_11.TextSize = 15.000
-l_11.TextStrokeTransparency = 0.230
-l_11.TextWrapped = true
-l_11.TextXAlignment = Enum.TextXAlignment.Left
+v_3.Name = "v"
+v_3.Parent = _6
+v_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+v_3.BackgroundTransparency = 0.400
+v_3.BorderSizePixel = 0
+v_3.Position = UDim2.new(0.0289999992, 0, 0.270000011, 0)
+v_3.Size = UDim2.new(0, 289, 0, 22)
+v_3.Font = Enum.Font.SourceSans
+v_3.Text = "   Radio GUI"
+v_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+v_3.TextSize = 14.000
+v_3.TextXAlignment = Enum.TextXAlignment.Left
 
-a_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 162, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 128, 0))}
-a_9.Name = "a"
-a_9.Parent = d
+v_4.CornerRadius = UDim.new(0, 3)
+v_4.Name = "v"
+v_4.Parent = v_3
+
+v_5.Name = "v"
+v_5.Parent = _6
+v_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+v_5.BackgroundTransparency = 0.400
+v_5.BorderSizePixel = 0
+v_5.Position = UDim2.new(0.0289999992, 0, 0.560000002, 0)
+v_5.Size = UDim2.new(0, 289, 0, 22)
+v_5.Font = Enum.Font.SourceSans
+v_5.Text = "   Speed Modifier"
+v_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+v_5.TextSize = 14.000
+v_5.TextXAlignment = Enum.TextXAlignment.Left
+
+v_6.CornerRadius = UDim.new(0, 3)
+v_6.Name = "v"
+v_6.Parent = v_5
+
+_1.Name = "1"
+_1.Parent = h_2
+_1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_1.BackgroundTransparency = 0.400
+_1.BorderSizePixel = 0
+_1.Position = UDim2.new(0.0189999994, 0, 0.647000015, 0)
+_1.Size = UDim2.new(0, 308, 0, 103)
+
+m.Name = "m"
+m.Parent = _1
+
+m_2.Name = "m"
+m_2.Parent = _1
+m_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+m_2.BackgroundTransparency = 1.000
+m_2.BorderSizePixel = 0
+m_2.Position = UDim2.new(0.0292207785, 0, -0.103089914, 0)
+m_2.Size = UDim2.new(0, 200, 0, 50)
+m_2.Font = Enum.Font.Code
+m_2.Text = "--- ACS 1.7.5+ Scripts"
+m_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+m_2.TextSize = 14.000
+m_2.TextXAlignment = Enum.TextXAlignment.Left
+
+m_3.Name = "m"
+m_3.Parent = _1
+m_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+m_3.BackgroundTransparency = 0.400
+m_3.BorderSizePixel = 0
+m_3.Position = UDim2.new(0.0289999992, 0, 0.270000011, 0)
+m_3.Size = UDim2.new(0, 289, 0, 22)
+m_3.Font = Enum.Font.SourceSans
+m_3.Text = "   Kill All"
+m_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+m_3.TextSize = 14.000
+m_3.TextXAlignment = Enum.TextXAlignment.Left
+
+m_4.CornerRadius = UDim.new(0, 3)
+m_4.Name = "m"
+m_4.Parent = m_3
+
+m_5.Name = "m"
+m_5.Parent = _1
+m_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+m_5.BackgroundTransparency = 0.400
+m_5.BorderSizePixel = 0
+m_5.Position = UDim2.new(0.0289999992, 0, 0.560000002, 0)
+m_5.Size = UDim2.new(0, 289, 0, 22)
+m_5.Font = Enum.Font.SourceSans
+m_5.Text = "   ServerBullet Lag"
+m_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+m_5.TextSize = 14.000
+m_5.TextXAlignment = Enum.TextXAlignment.Left
+
+m_6.CornerRadius = UDim.new(0, 3)
+m_6.Name = "m"
+m_6.Parent = m_5
+
+_2.Name = "2"
+_2.Parent = h_2
+_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_2.BackgroundTransparency = 0.400
+_2.BorderSizePixel = 0
+_2.Position = UDim2.new(0.0189999994, 0, 0.772000015, 0)
+_2.Size = UDim2.new(0, 308, 0, 205)
+
+u_2.Name = "u"
+u_2.Parent = _2
+
+u_3.Name = "u"
+u_3.Parent = _2
+u_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+u_3.BackgroundTransparency = 1.000
+u_3.BorderSizePixel = 0
+u_3.Position = UDim2.new(0.0292207785, 0, -0.044878047, 0)
+u_3.Size = UDim2.new(0, 200, 0, 50)
+u_3.Font = Enum.Font.Code
+u_3.Text = "--- ACS 2.0.0+ Scripts"
+u_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+u_3.TextSize = 14.000
+u_3.TextXAlignment = Enum.TextXAlignment.Left
+
+u_4.Name = "u"
+u_4.Parent = _2
+u_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+u_4.BackgroundTransparency = 0.400
+u_4.BorderSizePixel = 0
+u_4.Position = UDim2.new(0.0292207785, 0, 0.146666661, 0)
+u_4.Size = UDim2.new(0, 289, 0, 22)
+u_4.Font = Enum.Font.SourceSans
+u_4.Text = "   Giant Baseplate"
+u_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+u_4.TextSize = 14.000
+u_4.TextXAlignment = Enum.TextXAlignment.Left
+
+u_5.CornerRadius = UDim.new(0, 3)
+u_5.Name = "u"
+u_5.Parent = u_4
+
+u_6.Name = "u"
+u_6.Parent = _2
+u_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+u_6.BackgroundTransparency = 0.400
+u_6.BorderSizePixel = 0
+u_6.Position = UDim2.new(0.0292207785, 0, 0.304823816, 0)
+u_6.Size = UDim2.new(0, 289, 0, 22)
+u_6.Font = Enum.Font.SourceSans
+u_6.Text = "   ServerBullet Lag"
+u_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+u_6.TextSize = 14.000
+u_6.TextXAlignment = Enum.TextXAlignment.Left
+
+u_7.CornerRadius = UDim.new(0, 3)
+u_7.Name = "u"
+u_7.Parent = u_6
+
+u_8.Name = "u"
+u_8.Parent = _2
+u_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+u_8.BackgroundTransparency = 0.400
+u_8.BorderSizePixel = 0
+u_8.Position = UDim2.new(0.0292207785, 0, 0.458102942, 0)
+u_8.Size = UDim2.new(0, 289, 0, 22)
+u_8.Font = Enum.Font.SourceSans
+u_8.Text = "   Whizz Lag"
+u_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+u_8.TextSize = 14.000
+u_8.TextXAlignment = Enum.TextXAlignment.Left
+
+u_9.CornerRadius = UDim.new(0, 3)
+u_9.Name = "u"
+u_9.Parent = u_8
+
+u_10.Name = "u"
+u_10.Parent = _2
+u_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+u_10.BackgroundTransparency = 0.400
+u_10.BorderSizePixel = 0
+u_10.Position = UDim2.new(0.0292207785, 0, 0.611382067, 0)
+u_10.Size = UDim2.new(0, 289, 0, 22)
+u_10.Font = Enum.Font.SourceSans
+u_10.Text = "   HitEffect Lag"
+u_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+u_10.TextSize = 14.000
+u_10.TextXAlignment = Enum.TextXAlignment.Left
+
+u_11.CornerRadius = UDim.new(0, 3)
+u_11.Name = "u"
+u_11.Parent = u_10
+
+u_12.Name = "u"
+u_12.Parent = _2
+u_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+u_12.BackgroundTransparency = 0.400
+u_12.BorderSizePixel = 0
+u_12.Position = UDim2.new(0.0292207785, 0, 0.774417341, 0)
+u_12.Size = UDim2.new(0, 289, 0, 22)
+u_12.Font = Enum.Font.SourceSans
+u_12.Text = "   Suppression Lag"
+u_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+u_12.TextSize = 14.000
+u_12.TextXAlignment = Enum.TextXAlignment.Left
+
+u_13.CornerRadius = UDim.new(0, 3)
+u_13.Name = "u"
+u_13.Parent = u_12
 
 -- Scripts:
 
-local function YZGMCHZ_fake_script() -- h_3.s 
-	local script = Instance.new('Script', h_3)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
-	end)
-	
-end
-coroutine.wrap(YZGMCHZ_fake_script)()
-local function ULOOSKU_fake_script() -- h_4.s 
-	local script = Instance.new('Script', h_4)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/tpgui'),true))()
-	end)
-	
-end
-coroutine.wrap(ULOOSKU_fake_script)()
-local function KJMTW_fake_script() -- h_5.s 
-	local script = Instance.new('Script', h_5)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source'),true))()
-	end)
-	
-end
-coroutine.wrap(KJMTW_fake_script)()
-local function TXXT_fake_script() -- h_6.s 
-	local script = Instance.new('Script', h_6)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/inviz'),true))()
-	end)
-	
-end
-coroutine.wrap(TXXT_fake_script)()
-local function ZVLZICW_fake_script() -- h_7.s 
-	local script = Instance.new('Script', h_7)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/qtotp'),true))()
-	end)
-	
-end
-coroutine.wrap(ZVLZICW_fake_script)()
-local function PYJT_fake_script() -- h_8.s 
-	local script = Instance.new('Script', h_8)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/ac6new'),true))()
-	end)
-	
-end
-coroutine.wrap(PYJT_fake_script)()
-local function PGEIR_fake_script() -- h_9.s 
-	local script = Instance.new('Script', h_9)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'),true))()
-	end)
-	
-end
-coroutine.wrap(PGEIR_fake_script)()
-local function EMKLZUR_fake_script() -- d.a 
-	local script = Instance.new('LocalScript', d)
+local function MWMZGIA_fake_script() -- Frame.Dragify 
+	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
 	function dragify(Frame)
 	    dragToggle = nil
-	    local dragSpeed = 0.50
+	    local dragSpeed = 0.86
 	    dragInput = nil
 	    dragStart = nil
 	    local dragPos = nil
@@ -795,210 +620,219 @@ local function EMKLZUR_fake_script() -- d.a
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(EMKLZUR_fake_script)()
-local function RXLSSOU_fake_script() -- j_3.m 
-	local script = Instance.new('Script', j_3)
+coroutine.wrap(MWMZGIA_fake_script)()
+local function XHGOP_fake_script() -- l.t 
+	local script = Instance.new('LocalScript', l)
 
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/svlagger'),true))()
-	end)
+	local text = script.Parent
+	local uiGradient = text:WaitForChild("UIGradient")
+	local tweenService = game:GetService("TweenService")
 	
-end
-coroutine.wrap(RXLSSOU_fake_script)()
-local function XGFXF_fake_script() -- j_4.p 
-	local script = Instance.new('Script', j_4)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://paste.gg/p/anonymous/d3492bd620bd4c46b54680ac80b0fa0d/files/161ddd9c992c4ceba3c298458d45188a/raw'),true))()
-	end)
-	
-end
-coroutine.wrap(XGFXF_fake_script)()
-local function CZJTK_fake_script() -- j_5.l 
-	local script = Instance.new('Script', j_5)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/radio.txt'),true))()
-	end)
-	
-end
-coroutine.wrap(CZJTK_fake_script)()
-local function EQXPXJ_fake_script() -- j_6.k 
-	local script = Instance.new('Script', j_6)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/acs'),true))()
-	end)
-	
-end
-coroutine.wrap(EQXPXJ_fake_script)()
-local function KAPKCC_fake_script() -- j_6.k 
-	local script = Instance.new('Script', j_6)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/kill2'),true))()
-	end)
-	
-end
-coroutine.wrap(KAPKCC_fake_script)()
-local function GSERDMF_fake_script() -- e_3.s 
-	local script = Instance.new('Script', e_3)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/antifling'),true))()
-	end)
-	
-end
-coroutine.wrap(GSERDMF_fake_script)()
-local function XMZJEE_fake_script() -- e_4.s 
-	local script = Instance.new('Script', e_4)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/antiafk'),true))()
-	end)
-	
-end
-coroutine.wrap(XMZJEE_fake_script)()
-local function EBSUEK_fake_script() -- e_5.s 
-	local script = Instance.new('Script', e_5)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/antilag'),true))()
-	end)
-	
-end
-coroutine.wrap(EBSUEK_fake_script)()
-local function CRZECA_fake_script() -- e_6.s 
-	local script = Instance.new('Script', e_6)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/antipost'),true))()
-	end)
-	
-end
-coroutine.wrap(CRZECA_fake_script)()
-local function JDKVR_fake_script() -- l_4.s 
-	local script = Instance.new('Script', l_4)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/hydroxide'),true))()
-	end)
-	
-end
-coroutine.wrap(JDKVR_fake_script)()
-local function JIKUOOQ_fake_script() -- l_5.s 
-	local script = Instance.new('Script', l_5)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/CoochieSlayer6372/SimpleSpyFixed/main/badscript.lua'),true))()
-	end)
-	
-end
-coroutine.wrap(JIKUOOQ_fake_script)()
-local function YQIKIN_fake_script() -- l_6.s 
-	local script = Instance.new('Script', l_6)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/backdoor'),true))()
-	end)
-	
-end
-coroutine.wrap(YQIKIN_fake_script)()
-local function NGMYM_fake_script() -- l_7.s 
-	local script = Instance.new('Script', l_7)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/skyp'),true))()
-	end)
-	
-end
-coroutine.wrap(NGMYM_fake_script)()
-local function ZECFW_fake_script() -- l_8.s 
-	local script = Instance.new('Script', l_8)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/sias'),true))()
-	end)
-	
-end
-coroutine.wrap(ZECFW_fake_script)()
-local function QFNB_fake_script() -- l_9.s 
-	local script = Instance.new('Script', l_9)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/help'),true))()
-	end)
-	
-end
-coroutine.wrap(QFNB_fake_script)()
-local function SGADZ_fake_script() -- l_10.s 
-	local script = Instance.new('Script', l_10)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/saveinstance'),true))()
-	end)
-	
-end
-coroutine.wrap(SGADZ_fake_script)()
-local function ZGBFPI_fake_script() -- l_10.s 
-	local script = Instance.new('Script', l_10)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/kl0nx/ve3/main/saveinstance2'),true))()
-	end)
-	
-end
-coroutine.wrap(ZGBFPI_fake_script)()
-local function HROX_fake_script() -- _1.a 
-	local script = Instance.new('LocalScript', _1)
-
-	
-	--// Variables
-	
-	local Players = game:GetService("Players")
-	local OldNameCall = nil
-	
-	--// Global Variables
-	
-	getgenv().SendNotifications = true -- Set to true if you want to get notified regularly.
-	
-	--// Anti Kick Hook
-	
-	OldNameCall = hookmetamethod(game, "__namecall", function(Self, ...)
-		local NameCallMethod = getnamecallmethod()
-	
-		if tostring(string.lower(NameCallMethod)) == "kick" then
-			if getgenv().SendNotifications == true then
-				game:GetService("StarterGui"):SetCore("SendNotification", {
-					Title = "IEdutzHub V3",
-					Text = "You almost got kicked! Successfully prevented.",
-					Icon = "rbxassetid://7582544082",
-					Duration = 3,
-				})
-			end
-	
-			return nil
-		end
-	
-		return OldNameCall(Self, ...)
-	end)
-	
-	if getgenv().SendNotifications == true then
-		game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "IEdutzHub V3",
-			Text = "IEdutzHub V3 is now ready.",
-			Icon = "rbxassetid://7582544082",
-			Duration = 5,
-		})
+	while true do
+	        local tween = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(-1, 0)})
+	        tween:Play()
+	        wait(2)
+	        local tween2 = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(1, 0)})
+	        tween2:Play()
+	        wait(2)
 	end
+	
+	
 end
-coroutine.wrap(HROX_fake_script)()
-local function WLMUAMO_fake_script() -- _1.c 
-	local script = Instance.new('LocalScript', _1)
+coroutine.wrap(XHGOP_fake_script)()
+local function KROARK_fake_script() -- g_3.g 
+	local script = Instance.new('LocalScript', g_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+	
+end
+coroutine.wrap(KROARK_fake_script)()
+local function RIYVRJ_fake_script() -- g_5.g 
+	local script = Instance.new('LocalScript', g_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
+	end)
+	
+	
+end
+coroutine.wrap(RIYVRJ_fake_script)()
+local function ARFK_fake_script() -- g_7.g 
+	local script = Instance.new('LocalScript', g_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+	end)
+	
+	
+end
+coroutine.wrap(ARFK_fake_script)()
+local function OZHYS_fake_script() -- g_9.g 
+	local script = Instance.new('LocalScript', g_9)
+
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+	end)
+end
+coroutine.wrap(OZHYS_fake_script)()
+local function DKJM_fake_script() -- g_11.g 
+	local script = Instance.new('LocalScript', g_11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("'https://raw.githubusercontent.com/kl0nx/ve3/main/saveinstance2", true))()
+		loadstring(game:HttpGet("'https://raw.githubusercontent.com/kl0nx/ve3/main/saveinstance", true))()
+	end)
+	
+end
+coroutine.wrap(DKJM_fake_script)()
+local function TTGNPM_fake_script() -- z_3.z 
+	local script = Instance.new('LocalScript', z_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/ve3/main/nighrt"))()
+	end)
+end
+coroutine.wrap(TTGNPM_fake_script)()
+local function LKTYF_fake_script() -- z_5.z 
+	local script = Instance.new('LocalScript', z_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/ve3/main/antilag"))()
+	end)
+end
+coroutine.wrap(LKTYF_fake_script)()
+local function IMLKGTO_fake_script() -- h_5.h 
+	local script = Instance.new('LocalScript', h_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/ve3/main/antifling"))()
+	end)
+end
+coroutine.wrap(IMLKGTO_fake_script)()
+local function AVED_fake_script() -- h_7.h 
+	local script = Instance.new('LocalScript', h_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/ve3/main/antiafk", true))()
+	end)
+end
+coroutine.wrap(AVED_fake_script)()
+local function HWWN_fake_script() -- h_9.h 
+	local script = Instance.new('LocalScript', h_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/ve3/main/antipost"))()
+	end)
+end
+coroutine.wrap(HWWN_fake_script)()
+local function ZJHB_fake_script() -- v_3.v 
+	local script = Instance.new('LocalScript', v_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/ve3/main/radio.txt"))()
+	end)
+end
+coroutine.wrap(ZJHB_fake_script)()
+local function YOITSAZ_fake_script() -- v_5.v 
+	local script = Instance.new('LocalScript', v_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/ve3/main/newac645"))()
+	end)
+	
+end
+coroutine.wrap(YOITSAZ_fake_script)()
+local function OXYIUOX_fake_script() -- m_3.m 
+	local script = Instance.new('LocalScript', m_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/ve3/main/acs"))()
+	end)
+	
+end
+coroutine.wrap(OXYIUOX_fake_script)()
+local function YBQEVAU_fake_script() -- m_5.m 
+	local script = Instance.new('LocalScript', m_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/armafatala/main/acsvechibull"))()
+	end)
+	
+	
+end
+coroutine.wrap(YBQEVAU_fake_script)()
+local function CMPSA_fake_script() -- u_4.u 
+	local script = Instance.new('LocalScript', u_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/armafatala/main/acsblock"))()
+	end)
+	
+end
+coroutine.wrap(CMPSA_fake_script)()
+local function HXEY_fake_script() -- u_6.u 
+	local script = Instance.new('LocalScript', u_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/armafatala/main/acsbull"))()
+	end)
+end
+coroutine.wrap(HXEY_fake_script)()
+local function ORWG_fake_script() -- u_8.u 
+	local script = Instance.new('LocalScript', u_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/armafatala/main/acswiz", true))()
+	end)
+end
+coroutine.wrap(ORWG_fake_script)()
+local function RLVCKD_fake_script() -- u_10.u 
+	local script = Instance.new('LocalScript', u_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/armafatala/main/acshit"))()
+	end)
+	
+end
+coroutine.wrap(RLVCKD_fake_script)()
+local function FGHD_fake_script() -- u_12.u 
+	local script = Instance.new('LocalScript', u_12)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/kl0nx/armafatala/main/acssuppy"))()
+	end)
+	
+end
+coroutine.wrap(FGHD_fake_script)()
+local function VATXHID_fake_script() -- Frame.g 
+	local script = Instance.new('LocalScript', Frame)
+
+	local gui = script.Parent
+	local UIS = game:GetService("UserInputService")
+	
+	UIS.InputBegan:Connect(function(input, gameProcessed)
+		if input.UserInputType == Enum.UserInputType.Keyboard then
+			if input.KeyCode == Enum.KeyCode.F5 and not gameProcessed then
+				if gui.Visible == false then
+					gui.Visible = true
+				else
+					gui.Visible = false
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(VATXHID_fake_script)()
+local function UUOMGQ_fake_script() -- i.a 
+	local script = Instance.new('LocalScript', i)
 
 	local balanigga = game.Players.LocalPlayer
 	
-	local nush = {"MetroKiIlerRO",
+	local nush = {"thatsiedutz",
+		"MetroKiIlerRO",
 		"05_AGENT1",
 		"Ultra_Bonie8000",
 		"jandarmeria2020",
@@ -1020,30 +854,25 @@ local function WLMUAMO_fake_script() -- _1.c
 		"MeKillingYouRn",
 		"YellowNinja2021",
 		"YellowNinja2002",
+		"Ananimatus12343",
+		"Nutu1top",
+		"Radu2011mb",
 		"EzioAudiere",
 		"Ambautsweps",
 		"EricRetrogradat",
 		"Sarmalecubranzasicua",
 		"norbyhv",
-		"A_ALLL",
-		"pisiciinfinite",
-		"PIafon_s1230",
-		"Andreijoc",
-		"Andreijoc2",
-		"Alexander_Hanover",
-		"AndreiCuiu",
-		"AndreijocDev",
-		"BaconHairs_TheBest",
-		"CocalarulTare",
-		"Luke_Faqover",
-		"Rob3r_Nicolas",
-		"TheBest_Alex26",
-		"Willy_Hanover",
-		"Guest_31440",
-		"AndreiYKS",
-		"EricWebb2",
-		"KellyCannon1",
-		"AryyanaTnt112"
+		"AL3X1GAMING",
+		"ANT_ROMANIAROLEPLAY",
+		"Al3x160",
+		"MIHAICHIRICAlive",
+		"MNMRUFUSETARE",
+		"kokolas111",
+		"RobloxUser123r4",
+		"AndreiGaboru123",
+		"Albertooo_power",
+		"tudormariofa",
+		"DauCuV4ba"
 	}
 	
 	local isUser = false
@@ -1060,229 +889,4 @@ local function WLMUAMO_fake_script() -- _1.c
 		tesalut.Enabled = false
 	end
 end
-coroutine.wrap(WLMUAMO_fake_script)()
-local function VDJWBHC_fake_script() -- _1.b 
-	local script = Instance.new('LocalScript', _1)
-
-	local Settings, Data = {
-		ApplyToLeaderboard = true,
-		IdentifyFriends = true,
-		FriendIdentifier = ' [Friend]',
-		BlockedIdentifier = ' Blocked',
-		Orientation = 'Vertical',
-		DisplayNameToName = false,
-		ShowBlockedInName = false
-	}, { -- [Essential Data] Don't edit this table unless you know what you're doing and want a functional script, please. ;) - mothwa
-		Main = 'rbxasset://LuaPackages/Packages/_Index/UIBlox/UIBlox/App/ImageSet/ImageAtlas/img_set_1x_1.png',
-		Friend = 'rbxasset://LuaPackages/Packages/_Index/UIBlox/UIBlox/App/ImageSet/ImageAtlas/img_set_1x_3.png',
-		BlockedPos = '488, 133',
-		PremiumPos = '484, 489',
-		FriendPos = '230, 301'    
-	}
-	local Players, LP, PLM = nil, nil, nil
-	
-	local function FindChildByOrder(parent, tbl, returnInstance)
-		if parent and tbl and typeof(parent) == 'Instance' and type(tbl) == 'table' and #tbl > 0 then
-			local Current = parent;
-			for _, v in next, tbl do
-				coroutine.wrap(function()
-					if type(v) == 'string' and Current:FindFirstChild(v) then
-						Current = Current:FindFirstChild(v)
-					else
-						return false
-					end
-				end)()
-			end
-			if not returnInstance then
-				return true
-			elseif returnInstance then
-				return Current
-			end
-		end
-	end
-	
-	local function GetPlayer(data)
-		if type(data) == 'string' then
-			for _, v in next, Players:GetPlayers() do
-				if v.Name:lower():match('^'..data:lower()) or v.DisplayName:lower():match('^'..data:lower()) then
-					return v
-				end
-			end
-		elseif type(data) == 'number' then
-			for _, v in next, Players:GetPlayers() do
-				if v.UserId == data then
-					return v
-				end
-			end
-		end
-	end
-	
-	local function UpdateLeaderboardDisplayName(userId, returnStatusOnly)
-		local PLM = FindChildByOrder(game:GetService('CoreGui'), {'PlayerList', 'PlayerListMaster', 'OffsetFrame', 'PlayerScrollList', 'SizeOffsetFrame', 'ScrollingFrameContainer', 'ScrollingFrameClippingFrame', 'ScollingFrame', 'OffsetUndoFrame'}, true)
-		if PLM then
-			for I, PlayerNameInstance in next, PLM:GetChildren() do
-				if PlayerNameInstance.Name:match(tostring(userId)..'$') then
-					if not returnStatusOnly or returnStatusOnly == false then
-						local TP, NLabel, Status = GetPlayer(0 + PlayerNameInstance.Name:gsub('p_', '')), FindChildByOrder(PlayerNameInstance, {'ChildrenFrame', 'NameFrame', 'BGFrame', 'OverlayFrame', 'PlayerName', 'PlayerName'}, true), FindChildByOrder(PlayerNameInstance, {'ChildrenFrame', 'NameFrame', 'BGFrame', 'OverlayFrame', 'PlayerIcon'}, true)
-						if getgenv().ADv5LiveSettings.ApplyToLeaderboard and getgenv().ADv5LiveSettings.ApplyToLeaderboard == true and getgenv().ADv5LiveSettings.DisplayNameToName and getgenv().ADv5LiveSettings.DisplayNameToName == true then
-							NLabel.RichText = false
-							NLabel.Text = TP.Name
-						else
-							if tostring(Status.ImageRectOffset) == Data.FriendPos then --1
-								if getgenv().ADv5LiveSettings.ApplyToLeaderboard and getgenv().ADv5LiveSettings.ApplyToLeaderboard == true and getgenv().ADv5LiveSettings.IdentifyFriends then
-									NLabel.RichText = true
-									if getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name ~= TP.DisplayName then
-										NLabel.Text = '<font color="#24EC00">'..TP.DisplayName..'\n(@'..TP.Name..')'..'</font>'
-									elseif getgenv().ADv5LiveSettings.Orientation == 'Horizontal' and TP.Name ~= TP.DisplayName then
-										NLabel.Text = '<font color="#24EC00">'..TP.DisplayName..' (@'..TP.Name..')'..'</font>'
-									elseif table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name == TP.DisplayName then
-										NLabel.Text = '<font color="#24EC00">'..TP.DisplayName..'</font>'
-									end
-								else
-									NLabel.RichText = false
-									NLabel.Text = TP.DisplayName
-								end
-							elseif tostring(Status.ImageRectOffset) == Data.BlockedPos then --2
-								if getgenv().ADv5LiveSettings.ApplyToLeaderboard and getgenv().ADv5LiveSettings.ApplyToLeaderboard == true and getgenv().ADv5LiveSettings.ShowBlockedInName then
-									NLabel.RichText = true
-									if getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name ~= TP.DisplayName then
-										NLabel.Text = '<font color="#FC0000">'..TP.DisplayName..'\n(@'..TP.Name..')'..'</font>'
-									elseif getgenv().ADv5LiveSettings.Orientation == 'Horizontal' and TP.Name ~= TP.DisplayName then
-										NLabel.Text = '<font color="#FC0000">'..TP.DisplayName..' (@'..TP.Name..')'..'</font>'
-									elseif getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name == TP.DisplayName then
-										NLabel.Text = '<font color="#FC0000">'..TP.DisplayName..'</font>'
-									elseif getgenv().ADv5LiveSettings.Orientation == 'Horizontal' and TP.Name ~= TP.DisplayName then
-										NLabel.Text = '<font color="#FC0000">'..TP.DisplayName..'</font>'
-									end
-								else
-									NLabel.RichText = false
-									NLabel.Text = TP.DisplayName
-								end
-							else --3
-								if getgenv().ADv5LiveSettings.ApplyToLeaderboard and getgenv().ADv5LiveSettings.ApplyToLeaderboard == true then
-									NLabel.RichText = true
-									if getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name ~= TP.DisplayName then
-										NLabel.Text = TP.DisplayName..'\n(@'..TP.Name..')'
-									elseif getgenv().ADv5LiveSettings.Orientation == 'Horizontal' and TP.Name ~= TP.DisplayName then
-										NLabel.Text = TP.DisplayName..' (@'..TP.Name..')'
-									elseif table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name == TP.DisplayName then
-										NLabel.Text = TP.DisplayName
-									end
-								else
-									NLabel.RichText = false
-									NLabel.Text = TP.DisplayName
-								end
-							end
-						end
-					elseif returnStatusOnly and returnStatusOnly == true then
-						local Status = FindChildByOrder(b, {'ChildrenFrame', 'NameFrame', 'BGFrame', 'OverlayFrame', 'PlayerIcon'}, true)
-						if Status then
-							return tostring(Status.ImageRectOffset)
-						end
-					end
-				end
-			end
-		end
-	end
-	
-	local function UpdateCharacterDisplayName(Char)
-		local TP, H = Players:GetPlayerFromCharacter(Char), Char:FindFirstChildWhichIsA('Humanoid')
-		if TP and H then
-			if getgenv().ADv5LiveSettings.DisplayNameToName == false then
-				if UpdateLeaderboardDisplayName(TP.UserId, true) == Data.FriendPos then --1
-					if getgenv().ADv5LiveSettings.IdentifyFriends then
-						if getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name ~= TP.DisplayName then
-							H.DisplayName = TP.DisplayName..'\n(@'..TP.Name..')\n'..getgenv().ADv5LiveSettings.FriendIdentifier
-						elseif getgenv().ADv5LiveSettings.Orientation == 'Horizontal' and TP.Name ~= TP.DisplayName then
-							H.DisplayName = TP.DisplayName..' (@'..TP.Name..')'..getgenv().ADv5LiveSettings.FriendIdentifier
-						elseif getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name == TP.DisplayName then
-							H.DisplayName = TP.DisplayName..'\n'..getgenv().ADv5LiveSettings.FriendIdentifier
-						elseif getgenv().ADv5LiveSettings.Orientation == 'Horizontal' and TP.Name == TP.DisplayName then
-							H.DisplayName = TP.DisplayName..getgenv().ADv5LiveSettings.FriendIdentifier
-						end
-					elseif not getgenv().ADv5LiveSettings.ShowBlockedInName then
-						H.DisplayName = TP.DisplayName
-					end
-				elseif UpdateLeaderboardDisplayName(TP.UserId, true) == Data.BlockedPos then --2
-					if getgenv().ADv5LiveSettings.ShowBlockedInName then
-						if getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name ~= TP.DisplayName then
-							H.DisplayName = TP.DisplayName..'\n(@'..TP.Name..')\n'..getgenv().ADv5LiveSettings.BlockedIdentifier
-						elseif getgenv().ADv5LiveSettings.Orientation == 'Horizontal' and TP.Name ~= TP.DisplayName then
-							H.DisplayName = TP.DisplayName..' (@'..TP.Name..')'..getgenv().ADv5LiveSettings.BlockedIdentifier
-						elseif getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name == TP.DisplayName then
-							H.DisplayName = TP.DisplayName..'\n'..getgenv().ADv5LiveSettings.BlockedIdentifier
-						elseif getgenv().ADv5LiveSettings.Orientation == 'Horizontal' and TP.Name == TP.DisplayName then
-							H.DisplayName = TP.DisplayName..getgenv().ADv5LiveSettings.BlockedIdentifier
-						end
-					elseif not getgenv().ADv5LiveSettings.ShowBlockedInName then
-						H.DisplayName = TP.DisplayName
-					end
-				else --3
-					if getgenv().ADv5LiveSettings.Orientation == 'Vertical' or not table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name ~= TP.DisplayName then
-						H.DisplayName = TP.DisplayName..'\n(@'..TP.Name..')'
-					elseif getgenv().ADv5LiveSettings.Orientation == 'Horizontal' and TP.Name ~= TP.DisplayName then
-						H.DisplayName = TP.DisplayName..' (@'..TP.Name..')'
-					elseif table.find({'Vertical', 'Horizontal'}, getgenv().ADv5LiveSettings.Orientation) and TP.Name == TP.DisplayName then
-						H.DisplayName = TP.DisplayName
-					end
-				end
-			else
-				if getgenv().ADv5LiveSettings.ApplyToLeaderboard == true then
-					UpdateLeaderboardDisplayName(TP.UserId)
-					H.DisplayName = TP.Name
-				else
-					H.DisplayName = TP.Name
-				end
-			end
-		end
-	end
-	
-	if not game['Loaded'] or not game:GetService('Players')['LocalPlayer'] then
-		game['Loaded']:Wait();
-		game:WaitForChild(game:GetService('Players'));
-		game:GetService('Players'):WaitForChild(game:GetService('Players').LocalPlayer.Name)
-	end
-	
-	Players, LP, PLM = game:GetService('Players'), game:GetService('Players').LocalPlayer, FindChildByOrder(game:GetService('CoreGui'), {'PlayerList', 'PlayerListMaster', 'OffsetFrame', 'PlayerScrollList', 'SizeOffsetFrame', 'ScrollingFrameContainer', 'ScrollingFrameClippingFrame', 'ScollingFrame', 'OffsetUndoFrame'}, true)
-	if PLM and not getgenv().ADv5LiveSettings then
-		PLM.ChildAdded:Connect(function(PlayerNameInstance)
-			local UID = 0 + PlayerNameInstance.Name:match('%d+')
-			if type(UID) == 'number' then
-				UpdateLeaderboardDisplayName(UID)
-			end
-		end)
-	end
-	
-	for _, v in next, Players:GetPlayers() do
-		task.spawn(function()
-			wait(.5)
-			if v ~= LP then
-				if v['Character'] then
-					UpdateCharacterDisplayName(v.Character)
-				end
-				v.CharacterAdded:Connect(function(Char)
-					wait()
-					UpdateCharacterDisplayName(Char)
-				end)
-				UpdateLeaderboardDisplayName(v.UserId)
-			end
-		end)
-	end
-	
-	if not getgenv().ADv5LiveSettings then
-		Players.PlayerAdded:Connect(function(Player)
-			wait(.5)
-			if Player['Character'] then
-				UpdateCharacterDisplayName(Player.Character)
-			end
-			Player.CharacterAdded:Connect(function(Char)
-				wait()
-				UpdateCharacterDisplayName(Char)
-			end)
-			UpdateLeaderboardDisplayName(Player.UserId)
-		end)
-	end
-	
-	getgenv().ADv5LiveSettings = Settings
-end
-coroutine.wrap(VDJWBHC_fake_script)()
+coroutine.wrap(UUOMGQ_fake_script)()
