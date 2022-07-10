@@ -873,7 +873,8 @@ local function UUOMGQ_fake_script() -- i.a
 		"Albertooo_power",
 		"tudormariofa",
 		"DauCuV4ba",
-		"mateidavidandrei04"
+		"mateidavidandrei04",
+		"GalatiEsteCelMaiTare"
 	}
 	
 	local isUser = false
