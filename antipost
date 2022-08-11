@@ -1,33 +1,21 @@
-if not game:IsLoaded() then
-    game.Loaded:Wait()
-end
-
-local LP, Chatted = game:GetService('Players').LocalPlayer, Instance.new('BindableEvent')
-local Chat, MessagePosted = game:GetService('Chat')
-
-Chatted.Name = LP.Name..'_Chatted_Event'
-
-if Chat and Chat:FindFirstChild('ChatScript') and Chat.ChatScript:FindFirstChild('ChatMain') then
-    MessagePosted = require(Chat.ChatScript.ChatMain).MessagePosted
-
-    local Old
-    Old = hookmetamethod(game, '__namecall', function(self, ...)
-        local Method = getnamecallmethod()
-       
-        if self == MessagePosted and not checkcaller() and Method == 'Fire' then
-            Chatted:Fire(...)
-            return
+Y = hookmetamethod(game,"__namecall",function(self,...)
+ local args = {...};
+ local checkargs = {};
+ local method = getnamecallmethod()
+ local last
+ if method == "Fire" or method == "FireServer" then
+     if self.Name == "MessagePosted" or self.Name == "SayMessageRequest"   then
+           last = args[1]
+           --print(args[1].. last)
+            if last == args[1] then
+            return  Y(self,...)
+              else
+                 return
+                 end
+             if method == "ReportAbuse" and self == game.Players.LocalPlayer then
+                 return
         end
-       
-        return Old(self, ...)
-    end)
-
-    local Old2
-    Old2 = hookmetamethod(game, '__index', newcclosure(function(self, Index)
-        if checkcaller() and self == LP and Index == 'Chatted' then
-            return Chatted.Event
-        end
-       
-        return Old2(self, Index)
-    end))
-end
+     end
+ end  
+ return Y(self,...)
+end)
