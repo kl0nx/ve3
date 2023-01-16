@@ -1,14 +1,7 @@
 local balanigga = game.Players.LocalPlayer
 
-local nush = {"thatsiedutz",
-	"MetroKiIlerRO",
-	"Radu2011mb",
-	"05_AGENT1",
-	"Ultra_Bonie8000",
-	"jandarmeria2020",
-	"SebyBetivanu999",
-	"Xlemeyc",
-	"Nutu1top"
+local nush = {"eduard325454"
+
 }
 
 local isUser = false
